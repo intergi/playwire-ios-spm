@@ -72,10 +72,7 @@ let package = Package(
                 .product(name: "AppLovinMediationMolocoAdapter", package: "AppLovin-MAX-Swift-Package-Moloco"),
                 .product(name: "AppLovinMediationUnityAdsAdapter", package: "AppLovin-MAX-Swift-Package-UnityAds"),
             ],
-            path: "Sources/Playwire",
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"]),
-            ]
+            path: "Sources/Playwire"
         ),
         .binaryTarget(
             name: "Playwire",
