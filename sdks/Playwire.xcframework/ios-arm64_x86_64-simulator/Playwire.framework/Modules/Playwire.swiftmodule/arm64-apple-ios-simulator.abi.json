@@ -1084,17 +1084,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1717,73 +1717,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CustomNSError",
-            "printedName": "CustomNSError",
-            "usr": "s:10Foundation13CustomNSErrorP",
-            "mangledName": "$s10Foundation13CustomNSErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LocalizedError",
-            "printedName": "LocalizedError",
-            "usr": "s:10Foundation14LocalizedErrorP",
-            "mangledName": "$s10Foundation14LocalizedErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -1794,10 +1731,66 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -1812,6 +1805,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
           }
         ]
       },
@@ -2306,20 +2306,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CustomNSError",
-            "printedName": "CustomNSError",
-            "usr": "s:10Foundation13CustomNSErrorP",
-            "mangledName": "$s10Foundation13CustomNSErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LocalizedError",
-            "printedName": "LocalizedError",
-            "usr": "s:10Foundation14LocalizedErrorP",
-            "mangledName": "$s10Foundation14LocalizedErrorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2327,17 +2313,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -2352,6 +2338,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
           }
         ]
       },
@@ -2767,17 +2767,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -3526,52 +3526,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -3582,10 +3540,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -3775,52 +3775,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -3831,10 +3789,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -3913,52 +3913,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -3969,10 +3927,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -4105,52 +4105,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -4161,10 +4119,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -4761,31 +4761,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
             "name": "PMAdViewPresenterDelegate",
             "printedName": "PMAdViewPresenterDelegate",
             "usr": "c:@M@Playwire@objc(pl)PMAdViewPresenterDelegate",
             "mangledName": "$s8Playwire25PMAdViewPresenterDelegateP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
@@ -4796,17 +4775,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4817,17 +4789,45 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -5113,17 +5113,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5557,52 +5557,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5613,10 +5571,66 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
@@ -5631,20 +5645,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -5921,17 +5921,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6468,52 +6468,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6524,10 +6482,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -7207,52 +7207,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -7263,10 +7221,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -8782,52 +8782,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -8838,10 +8796,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -9012,52 +9012,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -9068,10 +9026,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -10049,52 +10049,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -10105,10 +10063,66 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
@@ -10123,20 +10137,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -11191,52 +11191,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -11247,10 +11205,66 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
@@ -11265,20 +11279,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -12934,52 +12934,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -12990,10 +12948,66 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
@@ -13008,20 +13022,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -13950,52 +13950,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -14006,10 +13964,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -14278,10 +14278,38 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
@@ -14292,10 +14320,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "PMAdDelegate",
-            "printedName": "PMAdDelegate",
-            "usr": "c:@M@Playwire@objc(pl)PMAdDelegate",
-            "mangledName": "$s8Playwire12PMAdDelegateP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -14313,52 +14355,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "PMAdDelegate",
+            "printedName": "PMAdDelegate",
+            "usr": "c:@M@Playwire@objc(pl)PMAdDelegate",
+            "mangledName": "$s8Playwire12PMAdDelegateP"
           }
         ]
       },
@@ -14563,52 +14563,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -14619,10 +14577,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -15111,52 +15111,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -15167,10 +15125,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -16705,52 +16705,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -16761,10 +16719,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -16819,52 +16819,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -16875,10 +16833,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -16910,24 +16910,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -16938,17 +16924,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16959,13 +16938,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -16973,10 +16945,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -17014,24 +17014,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -17042,17 +17028,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17063,13 +17042,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -17077,10 +17049,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -17116,34 +17116,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -17155,6 +17127,34 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -17180,52 +17180,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -17236,10 +17194,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -17265,52 +17265,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -17321,10 +17279,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }
@@ -17333,1715 +17333,1715 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/extensions\/Encodable.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/extensions\/Encodable.swift",
       "kind": "Array",
       "offset": 474,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 60,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 104,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/misc\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 128,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PMVastBanner.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PMVastBanner.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PMVastInterstitialBase.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PMVastInterstitialBase.swift",
       "kind": "BooleanLiteral",
       "offset": 328,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/VAST\/PMVastNetworkBase.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/VAST\/PMVastNetworkBase.swift",
       "kind": "BooleanLiteral",
       "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 193,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 220,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 289,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 311,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 340,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdTag.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 4,
       "value": "1009"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 335,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 372,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/AppLovin\/AppLovinNativeLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
       "kind": "Dictionary",
       "offset": 273,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
       "kind": "Dictionary",
       "offset": 358,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PWViewAdLoader.swift",
       "kind": "Array",
       "offset": 2595,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PWFullScreenAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PWFullScreenAdLoader.swift",
       "kind": "Dictionary",
       "offset": 286,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PWFullScreenAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PWFullScreenAdLoader.swift",
       "kind": "Dictionary",
       "offset": 371,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/init\/AdNetworkRegistry.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/init\/AdNetworkRegistry.swift",
       "kind": "Dictionary",
       "offset": 270,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 124,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 155,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 184,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "IntegerLiteral",
       "offset": 361,
       "length": 4,
       "value": "1009"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "Dictionary",
       "offset": 2203,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "StringLiteral",
       "offset": 2423,
       "length": 102,
       "value": "\"PWAdError(name: \"\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "StringLiteral",
       "offset": 2449,
       "length": 1,
       "value": "\"\", code: \""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "StringLiteral",
       "offset": 2475,
       "length": 1,
       "value": "\", message: \"\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "StringLiteral",
       "offset": 2498,
       "length": 1,
       "value": "\"\", metadata: \""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdError.swift",
       "kind": "StringLiteral",
       "offset": 2523,
       "length": 1,
       "value": "\")\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/init\/SDKInitializer.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/init\/SDKInitializer.swift",
       "kind": "BooleanLiteral",
       "offset": 871,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "FloatLiteral",
       "offset": 616,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 12,
       "value": "\"session_id\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "StringLiteral",
       "offset": 827,
       "length": 20,
       "value": "\"session_start_time\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 25,
       "value": "\"session_sampling_ticket\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 964,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsSessionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 969,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
       "kind": "IntegerLiteral",
       "offset": 448,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
       "kind": "Array",
       "offset": 565,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventStore.swift",
       "kind": "StringLiteral",
       "offset": 1241,
       "length": 21,
       "value": "\"analyticsEventStore\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventUploader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventUploader.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventUploader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsEventUploader.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
       "kind": "Dictionary",
       "offset": 1642,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
       "kind": "StringLiteral",
       "offset": 1671,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsLogger.swift",
       "kind": "Dictionary",
       "offset": 1822,
       "length": 106,
       "value": "[(\"id\", 1), (\"meta\", [(\"key\", \"val\"), (\"nested_id\", 50)])]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsClient.swift",
       "kind": "FloatLiteral",
       "offset": 604,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsClient.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/analytics\/AnalyticsClient.swift",
       "kind": "BooleanLiteral",
       "offset": 639,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/consent\/PWUMPManager.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/consent\/PWUMPManager.swift",
       "kind": "BooleanLiteral",
       "offset": 450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/consent\/PWUMPDebug.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/consent\/PWUMPDebug.swift",
       "kind": "BooleanLiteral",
       "offset": 345,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/consent\/PWCMPType.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/consent\/PWCMPType.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/consent\/PWCMPType.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/consent\/PWCMPType.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 865,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 887,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 6,
       "value": "\"mock\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2060,
       "length": 3,
       "value": "320"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2073,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2405,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2526,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2585,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/models\/PMConfigUnit.swift",
       "kind": "IntegerLiteral",
       "offset": 2717,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
       "kind": "IntegerLiteral",
       "offset": 1845,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 2037,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
       "kind": "IntegerLiteral",
       "offset": 17587,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/loader\/PMAdLoader.swift",
       "kind": "IntegerLiteral",
       "offset": 17663,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 275,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 11,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1527,
       "length": 3,
       "value": "180"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/floatingbanner\/PWFloatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1540,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 524,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/logger\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 647,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PMEndpoint.swift",
       "kind": "Dictionary",
       "offset": 362,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/misc\/TaskScheduler.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/misc\/TaskScheduler.swift",
       "kind": "BooleanLiteral",
       "offset": 215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWAdViewPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWAdViewPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 3347,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireMobileAds.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireMobileAds.swift",
       "kind": "BooleanLiteral",
       "offset": 708,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireMobileAds.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireMobileAds.swift",
       "kind": "Dictionary",
       "offset": 1369,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "FloatLiteral",
       "offset": 504,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "FloatLiteral",
       "offset": 561,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "FloatLiteral",
       "offset": 616,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "FloatLiteral",
       "offset": 668,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "IntegerLiteral",
       "offset": 3843,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "IntegerLiteral",
       "offset": 4033,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/CountdownCloseButton.swift",
       "kind": "BooleanLiteral",
       "offset": 4045,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 44,
       "value": "\"com.intergi.playwiremobile.targeting.queue\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
       "kind": "StringLiteral",
       "offset": 2834,
       "length": 15,
       "value": "\"cust_cli_tag_\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PMTargeting.swift",
       "kind": "StringLiteral",
       "offset": 4161,
       "length": 14,
       "value": "\"sitecont_cat\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 390,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 435,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 481,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 578,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 628,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 679,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 758,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 810,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 874,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1015,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1078,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1154,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1214,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1266,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1602,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "Array",
       "offset": 1980,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "Array",
       "offset": 2036,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "Array",
       "offset": 2093,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 2181,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 2272,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 18952,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/PMAdPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 20973,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/LoadingView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/adplayerview\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 75,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 13,
       "value": "\"bidderIndex\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
       "kind": "Dictionary",
       "offset": 684,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdSlot.swift",
       "kind": "Array",
       "offset": 1004,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdBidder.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdBidder.swift",
       "kind": "Array",
       "offset": 697,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdBidder.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/PWAdBidder.swift",
       "kind": "StringLiteral",
       "offset": 919,
       "length": 14,
       "value": "\"bidderAdUnit\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/Amazon\/PWAmazonAdBidder.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/Amazon\/PWAmazonAdBidder.swift",
       "kind": "StringLiteral",
       "offset": 647,
       "length": 20,
       "value": "\"amazon_ad_response\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/headerBidding\/Amazon\/PWAmazonAdBidder.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/headerBidding\/Amazon\/PWAmazonAdBidder.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 17,
       "value": "\"amazon_ad_error\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockBanner.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockBanner.swift",
       "kind": "BooleanLiteral",
       "offset": 194,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockBannerView.swift",
       "kind": "BooleanLiteral",
       "offset": 239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockInterstitial.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockInterstitial.swift",
       "kind": "BooleanLiteral",
       "offset": 218,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockNetwork.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/networks\/mock\/PMMockNetwork.swift",
       "kind": "BooleanLiteral",
       "offset": 206,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/preconditions\/AdPreconditionValidator.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/preconditions\/AdPreconditionValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 747,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/preconditions\/AdPreconditionValidator.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/preconditions\/AdPreconditionValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 784,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/logger\/LogWriter.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/logger\/LogWriter.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 18,
       "value": "\"com.playwire.sdk\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWTargeting.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWTargeting.swift",
       "kind": "Dictionary",
       "offset": 270,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/PWTargeting.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/PWTargeting.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 15,
       "value": "\"cust_cli_tag_\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "BooleanLiteral",
       "offset": 874,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1444,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "StringLiteral",
       "offset": 2420,
       "length": 11,
       "value": "\"adRefresh\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "StringLiteral",
       "offset": 2654,
       "length": 8,
       "value": "\"adInit\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3020,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "BooleanLiteral",
       "offset": 3065,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "Array",
       "offset": 3134,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWBannerView.swift",
       "kind": "BooleanLiteral",
       "offset": 600,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 3,
       "value": "320"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 362,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 253,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 325,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/appOpen\/PWAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 371,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/PWFullScreenAd.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/PWFullScreenAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1072,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWAnalyticsSettings.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWAnalyticsSettings.swift",
       "kind": "FloatLiteral",
       "offset": 384,
       "length": 4,
       "value": "0.05"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWAnalyticsSettings.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWAnalyticsSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 449,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 607,
       "length": 8,
       "value": "\"Amazon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "Array",
       "offset": 3403,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 3466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4020,
       "length": 10,
       "value": "\"Priority\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4077,
       "length": 10,
       "value": "\"Combined\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4566,
       "length": 8,
       "value": "\"Banner\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4614,
       "length": 14,
       "value": "\"Interstitial\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4664,
       "length": 10,
       "value": "\"Rewarded\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
       "offset": 4711,
       "length": 11,
       "value": "\"AppOpenAd\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWDataLoaderRetrier.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWDataLoaderRetrier.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWEndpoint.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWEndpoint.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWEndpoint.swift",
       "kind": "Dictionary",
       "offset": 401,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1035,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1111,
       "length": 13,
       "value": "\"rewarded_ad\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 10,
       "value": "\"app_open\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1183,
       "length": 11,
       "value": "\"native_ad\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1758,
       "length": 8,
       "value": "\"Banner\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1822,
       "length": 14,
       "value": "\"Interstitial\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1888,
       "length": 10,
       "value": "\"Rewarded\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 11,
       "value": "\"AppOpenAd\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 2012,
       "length": 8,
       "value": "\"Native\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 2628,
       "length": 8,
       "value": "\"amazon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3037,
       "length": 4,
       "value": "\"no\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3062,
       "length": 6,
       "value": "\"auto\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3091,
       "length": 8,
       "value": "\"manual\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3122,
       "length": 8,
       "value": "\"hybrid\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3183,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3236,
       "length": 6,
       "value": "\"Auto\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3293,
       "length": 8,
       "value": "\"Manual\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
       "offset": 3352,
       "length": 8,
       "value": "\"Hybrid\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 778,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "Array",
       "offset": 866,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 12029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 43,
       "length": 8,
-      "value": "\"13.0.0\""
+      "value": "\"13.0.1\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 20,
       "value": "\"app.intergient.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 15,
       "value": "\"mobile-config\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 6,
       "value": "\"json\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 17,
       "value": "\"PMInitSkipCache\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 14,
       "value": "\"PMInitFormat\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 13,
       "value": "\"InitBackend\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 27,
       "value": "\"raw.githubusercontent.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 28,
       "value": "\"intergi\/mobile-config-file\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 39,
       "value": "\"intergi\/mobile-config-file\/refs\/heads\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 15,
       "value": "\"InitGitBranch\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 14,
       "value": "\"InitGitToken\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 21,
       "value": "\"InitRampEnvironment\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 6,
       "value": "\"apps\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 889,
       "length": 21,
       "value": "\"config.playwire.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 950,
       "length": 25,
       "value": "\"config.stg.playwire.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 35,
       "value": "\"phoenix-configs-dev.herokuapp.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 26,
       "value": "\"GADApplicationIdentifier\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 17,
       "value": "\"PWInitOldFormat\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 20,
       "value": "\"mobile_config.json\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1324,
       "length": 15,
       "value": "\"PMConfig.json\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 14,
       "value": "\"GAMAdRequest\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1431,
       "length": 13,
       "value": "\"app_test_ad\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1520,
       "length": 51,
       "value": "\"https:\/\/cd836371f1d.cdn.intergient.com\/fb87a4ea41\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1619,
       "length": 8,
       "value": "\"Amazon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1665,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1709,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1749,
       "length": 14,
       "value": "\"playwire.com\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/Playwire\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1801,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 9,
       "value": "\"ad_icon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 864,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 18,
       "value": "\"full_screen_icon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 17,
       "value": "\"volume_low_icon\""
     },
     {
-      "filePath": "\/Users\/raouf\/Workspace\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 18,

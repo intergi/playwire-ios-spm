@@ -1,3 +1,4 @@
 framework module Playwire {
   header "Playwire-Swift.h"
+  requires objc
 }
