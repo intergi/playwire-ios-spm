@@ -595,6 +595,9 @@ public struct PWAdRevenue {
   @objc open func configure(request: GoogleMobileAds.AdManagerRequest)
   @objc deinit
 }
+extension Playwire.PlaywireSDK {
+  @objc @_Concurrency.MainActor dynamic public func registerWebView(_ webView: WebKit.WKWebView)
+}
 extension Playwire.PWAdErrorCode : Swift.Equatable {}
 extension Playwire.PWAdErrorCode : Swift.Hashable {}
 extension Playwire.PWAdErrorCode : Swift.RawRepresentable {}

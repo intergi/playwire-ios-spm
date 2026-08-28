@@ -1049,6 +1049,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class WKWebView;
+@interface PlaywireSDK (SWIFT_EXTENSION(Playwire))
+/// Registers a <code>WKWebView</code> with the Google Mobile Ads SDK.
+/// This function does not retain the webview; it is only forwarded to
+/// Google Mobile Ads SDK’s registration call.
+- (void)registerWebView:(WKWebView * _Nonnull)webView;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -2106,6 +2114,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 - (void)configureWithRequest:(GAMRequest * _Nonnull)request;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class WKWebView;
+@interface PlaywireSDK (SWIFT_EXTENSION(Playwire))
+/// Registers a <code>WKWebView</code> with the Google Mobile Ads SDK.
+/// This function does not retain the webview; it is only forwarded to
+/// Google Mobile Ads SDK’s registration call.
+- (void)registerWebView:(WKWebView * _Nonnull)webView;
 @end
 
 #endif

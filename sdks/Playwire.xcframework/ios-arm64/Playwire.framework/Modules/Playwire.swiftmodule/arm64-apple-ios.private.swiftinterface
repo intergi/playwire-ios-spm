@@ -599,6 +599,9 @@ public struct PWAdRevenue {
   @objc deinit
 }
 extension Playwire.PlaywireSDK {
+  @objc @_Concurrency.MainActor dynamic public func registerWebView(_ webView: WebKit.WKWebView)
+}
+extension Playwire.PlaywireSDK {
   @_spi(PlaywireDemo) public func addLogWriter(writer: any Playwire.LogWriter)
 }
 extension Playwire.PWAdErrorCode : Swift.Equatable {}

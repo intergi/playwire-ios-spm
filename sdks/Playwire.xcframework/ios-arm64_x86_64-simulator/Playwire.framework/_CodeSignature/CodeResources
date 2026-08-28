@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/Playwire-Swift.h</key>
 		<data>
-		fHs4sj969lDL+m3PwS70WmNJzs0=
+		1Uezm4o5ZTDB2oez1IHEvunPcB4=
 		</data>
 		<key>HyBidCustomCTAView.nib</key>
 		<data>
@@ -118,43 +118,43 @@
 		</data>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		g2h4NLRFJ3h63XY4yAWookxnW0I=
+		k67pBHwlLFzHfNO+kYU/m2Ga9TI=
 		</data>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hCNnEFn4H+w4zV/MSp95iTOu5mg=
+		LgoX51zHaD/K3NpXT1UkGEMMqXA=
 		</data>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0JkFXCPKoSL86rFghwqwgMYkb7I=
+		70XEDgg8TIkGCx5NQR2wieiu+ps=
 		</data>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yHJecPst6cptWhGYXX9RWsZyFfM=
+		Tqkl771iQTQds+EJChKBdoxl3tg=
 		</data>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Yc6d6lS1ZCrsLR7ktYKi7fjj2+Y=
+		jO4YQw/i/oPrAlibjsTgNhL4gcI=
 		</data>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		g2h4NLRFJ3h63XY4yAWookxnW0I=
+		k67pBHwlLFzHfNO+kYU/m2Ga9TI=
 		</data>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FS96xaobYDfKgS3ZJQg9+dymYAk=
+		DeMpG/aoYaZZuSM1X9CcD2OgMj8=
 		</data>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PUFaNksXVHHgdWGgdJDZTulqNNE=
+		kJVQFEZniHNU6i6NjZWrEHc+UU0=
 		</data>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UCfGM0hmSrmhLhHrXUsZFDhNSXM=
+		BpL93GYuBC7/UFVc+x9A+0kNAW0=
 		</data>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P1rzMphOvrEkH/97ryjui33eurY=
+		1JP2HxhqIG1BROZmlCQSKBRdQqc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>MolocoSDK.bundle/Info.plist</key>
 		<data>
-		H6l+a76h+xsanu9vp4yu31q1wEI=
+		SbITLgAKDYEjVEpZTVukas4Glz4=
 		</data>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		ecmTsnNgn5hFU7QDs3CK8hytMZw=
+		mqQzSoHFdaNQc8GUc5YoHu5DIcM=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -331,6 +331,14 @@
 		<key>UnityAdsResources.bundle/omsdk-v1.js</key>
 		<data>
 		6+hfCdXnixKm+657WUiXeprAN1c=
+		</data>
+		<key>UnityCoherenceLib.bundle/Info.plist</key>
+		<data>
+		SYsR3f2lCPsDCZqO+r3/uBMAQLY=
+		</data>
+		<key>UnityCoherenceLib.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		3XmCbc8TeadtfcWUSPBTDNIzVLk=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
@@ -486,7 +494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CNWgxfSTIMosEFbGJN7SWlpH1QiP49wiC06OUWfTE6Q=
+			reH/J8OK8nk2A7NYaCE7qTdWSH/HyEdss5Ky6F99q2s=
 			</data>
 		</dict>
 		<key>HyBidCustomCTAView.nib</key>
@@ -612,70 +620,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xe+pxdDjtU0EvASifMrislRn1H/1ChV/Jwh8TW0VZ/g=
+			PXs9VqHX38tjj+IeH4jp6V4l73osFm+KYVrLBMxGLSI=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N692vD4j63FRHgPqMJi3i4jUTbReZa9XesZ+OsFB5KE=
+			EXVApetXfiVB+j4lNXG86fZhp/YjrA+5kub8wd9r6DA=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM3Ls824R1FHNeQfEKMtx3s6nuXsMAwtLV72otwbko0=
+			SsJ3Z/S8IFYHlaDW/sjCKWTUjWLFO3oYMvIOYlpcm3k=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2qQQig0oJhQFh4C43IqF7cayWKK73us1Kl6UR6eCamQ=
+			EXWzRiITD9A7r8Uh817ZDgiL5VzCwDzoAcVUptdQGpM=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a9E6l0LyZ26S8SfRya/hrFBaUFJfrJcyrmUek0uw7JE=
+			lQJc5rxnePcgpSRFaqQS3arvQNcKbNr/vApc34SB5DY=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xe+pxdDjtU0EvASifMrislRn1H/1ChV/Jwh8TW0VZ/g=
+			PXs9VqHX38tjj+IeH4jp6V4l73osFm+KYVrLBMxGLSI=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RIvgxvMMLMjIQyzMP90iz6zA00+bliyfYa7e3ZalrZ8=
+			ZlziEsQJo7XnymAvrXPj82qcuFrGesJJacCHciYdmrM=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7l+9O4t3bsAnQIK1H18V/dHs6FNZFXsItGEua6zXXfo=
+			iJ4iJWISQ4ACrA6JL9vodBLPvlojmkx1SjSmJEjLTJs=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0pUolCggQbCJsBYBYiov21rNnTfZwehnnJGMal8SVY=
+			D3OQGXX9v8gVAgXm2vJntae/KGKKvi8u6LnY+i0uDWA=
 			</data>
 		</dict>
 		<key>Modules/Playwire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ON3RF/OTdA5tBGIULR22mzPldWAI5kPTCGNakXC1EZg=
+			IIOlxzU1rmMjDSFVg/DZZmsSDO/+omFtphcKLeZUORY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -689,7 +697,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lmD0Qd3+eGsruzuMjNN1uLmKipX0qTPRtRXNdVxc0PA=
+			1yrgFk99GajsMsqH7lJ6fctLOwwOndAJ+H8YPjvZrNQ=
 			</data>
 		</dict>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -962,7 +970,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tVjp+BJhVPgTvUmZjFPD0x0OOL0jX+hcqpPduB8D5wc=
+			b4jnyFyE4dCV7U7kB0a3l+OkqcAsLsOXG/fuFhMjetM=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -984,6 +992,20 @@
 			<key>hash2</key>
 			<data>
 			wdHo+ZxIr5eFSs8kgj8Q2jorPZzSti3/PJO59hk3RRw=
+			</data>
+		</dict>
+		<key>UnityCoherenceLib.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iRD9DCDnqpu39QPkC+Q9JeQNuzdMt8LeHhpq2DAHd6A=
+			</data>
+		</dict>
+		<key>UnityCoherenceLib.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PU2fPHOLgJl9n3yd4PQcpUM6lQQ8ezoZ8/rwljr20rc=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
