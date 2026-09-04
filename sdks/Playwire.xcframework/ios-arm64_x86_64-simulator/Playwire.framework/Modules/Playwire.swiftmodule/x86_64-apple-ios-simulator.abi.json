@@ -10025,6 +10025,54 @@
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportAd",
+            "printedName": "reportAd(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWViewAd(im)reportAd:completion:",
+            "mangledName": "$s8Playwire8PWViewAdC06reportC0_10completionyAA10PWAdReportC_ySbctF",
+            "moduleName": "Playwire",
+            "objc_name": "reportAd:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -11281,6 +11329,859 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PWAdReportIssue",
+        "printedName": "PWAdReportIssue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "inBannerVideoOrSound",
+            "printedName": "inBannerVideoOrSound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueInBannerVideoOrSound",
+            "mangledName": "$s8Playwire15PWAdReportIssueO20inBannerVideoOrSoundyA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "offensiveOrAdultContent",
+            "printedName": "offensiveOrAdultContent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueOffensiveOrAdultContent",
+            "mangledName": "$s8Playwire15PWAdReportIssueO23offensiveOrAdultContentyA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "overlapsPageContent",
+            "printedName": "overlapsPageContent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueOverlapsPageContent",
+            "mangledName": "$s8Playwire15PWAdReportIssueO19overlapsPageContentyA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "competitiveAdvertiser",
+            "printedName": "competitiveAdvertiser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueCompetitiveAdvertiser",
+            "mangledName": "$s8Playwire15PWAdReportIssueO21competitiveAdvertiseryA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "scamOrMisleadingClaim",
+            "printedName": "scamOrMisleadingClaim",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueScamOrMisleadingClaim",
+            "mangledName": "$s8Playwire15PWAdReportIssueO21scamOrMisleadingClaimyA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "performanceOrBadUX",
+            "printedName": "performanceOrBadUX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssuePerformanceOrBadUX",
+            "mangledName": "$s8Playwire15PWAdReportIssueO18performanceOrBadUXyA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Playwire.PWAdReportIssue.Type) -> Playwire.PWAdReportIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Playwire.PWAdReportIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWAdReportIssue",
+                        "printedName": "Playwire.PWAdReportIssue",
+                        "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Playwire@E@PWAdReportIssue@PWAdReportIssueOther",
+            "mangledName": "$s8Playwire15PWAdReportIssueO5otheryA2CmF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Playwire.PWAdReportIssue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWAdReportIssue",
+                    "printedName": "Playwire.PWAdReportIssue",
+                    "usr": "c:@M@Playwire@E@PWAdReportIssue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Playwire15PWAdReportIssueO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8Playwire15PWAdReportIssueO8rawValueACSgSi_tcfc",
+            "moduleName": "Playwire",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Playwire15PWAdReportIssueO8rawValueSivp",
+            "mangledName": "$s8Playwire15PWAdReportIssueO8rawValueSivp",
+            "moduleName": "Playwire",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Playwire15PWAdReportIssueO8rawValueSivg",
+                "mangledName": "$s8Playwire15PWAdReportIssueO8rawValueSivg",
+                "moduleName": "Playwire",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Playwire@E@PWAdReportIssue",
+        "mangledName": "$s8Playwire15PWAdReportIssueO",
+        "moduleName": "Playwire",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PWAdReport",
+        "printedName": "PWAdReport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(py)email",
+            "mangledName": "$s8Playwire10PWAdReportC5emailSSvp",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)email",
+                "mangledName": "$s8Playwire10PWAdReportC5emailSSvg",
+                "moduleName": "Playwire",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submittedByWebsiteOwner",
+            "printedName": "submittedByWebsiteOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(py)submittedByWebsiteOwner",
+            "mangledName": "$s8Playwire10PWAdReportC23submittedByWebsiteOwnerSbvp",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)submittedByWebsiteOwner",
+                "mangledName": "$s8Playwire10PWAdReportC23submittedByWebsiteOwnerSbvg",
+                "moduleName": "Playwire",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(email:submittedByWebsiteOwner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)initWithEmail:submittedByWebsiteOwner:",
+            "mangledName": "$s8Playwire10PWAdReportC5email23submittedByWebsiteOwnerACSS_Sbtcfc",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "flag",
+            "printedName": "flag(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReportIssue",
+                "printedName": "Playwire.PWAdReportIssue",
+                "usr": "c:@M@Playwire@E@PWAdReportIssue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)flag:",
+            "mangledName": "$s8Playwire10PWAdReportC4flagyAcA0bC5IssueOF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unflag",
+            "printedName": "unflag(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReportIssue",
+                "printedName": "Playwire.PWAdReportIssue",
+                "usr": "c:@M@Playwire@E@PWAdReportIssue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)unflag:",
+            "mangledName": "$s8Playwire10PWAdReportC6unflagyAcA0bC5IssueOF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isFlagged",
+            "printedName": "isFlagged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReportIssue",
+                "printedName": "Playwire.PWAdReportIssue",
+                "usr": "c:@M@Playwire@E@PWAdReportIssue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)isFlagged:",
+            "mangledName": "$s8Playwire10PWAdReportC9isFlaggedySbAA0bC5IssueOF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withAdditionalDetails",
+            "printedName": "withAdditionalDetails(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)withAdditionalDetails:",
+            "mangledName": "$s8Playwire10PWAdReportC21withAdditionalDetailsyACSSF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Playwire@objc(cs)PWAdReport(im)init",
+            "mangledName": "$s8Playwire10PWAdReportCACycfc",
+            "moduleName": "Playwire",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Playwire@objc(cs)PWAdReport",
+        "mangledName": "$s8Playwire10PWAdReportC",
+        "moduleName": "Playwire",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "Import",
+        "name": "ConfiantSDK",
+        "printedName": "ConfiantSDK",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Playwire"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Playwire"
       },
       {
         "kind": "Import",
@@ -12608,6 +13509,56 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "reportAd",
+            "printedName": "reportAd(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWNativeView(im)reportAd:completion:",
+            "mangledName": "$s8Playwire12PWNativeViewC8reportAd_10completionyAA10PWAdReportC_ySbctF",
+            "moduleName": "Playwire",
+            "overriding": true,
+            "objc_name": "reportAd:completion:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -15063,6 +16014,53 @@
             "moduleName": "Playwire",
             "declAttributes": [
               "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportAd",
+            "printedName": "reportAd(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PWAdReport",
+                "printedName": "Playwire.PWAdReport",
+                "usr": "c:@M@Playwire@objc(cs)PWAdReport"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Playwire@objc(cs)PWFullScreenAd(im)reportAd:completion:",
+            "mangledName": "$s8Playwire14PWFullScreenAdC06reportD0_10completionyAA10PWAdReportC_ySbctF",
+            "moduleName": "Playwire",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment",
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
@@ -18550,35 +19548,35 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2587,
       "length": 11,
       "value": "\"adRefresh\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "StringLiteral",
-      "offset": 2654,
+      "offset": 2821,
       "length": 8,
       "value": "\"adInit\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 3020,
+      "offset": 3187,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 3065,
+      "offset": 3232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/PWViewAd.swift",
       "kind": "Array",
-      "offset": 3134,
+      "offset": 3301,
       "length": 2,
       "value": "[]"
     },
@@ -18588,6 +19586,90 @@
       "offset": 600,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 23,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 19,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 21,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 671,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 18,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 925,
+      "length": 5,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "Array",
+      "offset": 1621,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/PWAdReport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/SecurityService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/SecurityService.swift",
+      "kind": "Array",
+      "offset": 730,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/AdBlocker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/security\/AdBlocker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/view\/banner\/PWNativeBannerView.swift",
@@ -18641,7 +19723,7 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/ads\/fullScreen\/PWFullScreenAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1221,
       "length": 1,
       "value": "0"
     },
@@ -18669,56 +19751,56 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "Array",
-      "offset": 3403,
+      "offset": 3522,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3466,
+      "offset": 3608,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4020,
+      "offset": 4162,
       "length": 10,
       "value": "\"Priority\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 4219,
       "length": 10,
       "value": "\"Combined\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4566,
+      "offset": 4708,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4614,
+      "offset": 4756,
       "length": 14,
       "value": "\"Interstitial\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4664,
+      "offset": 4806,
       "length": 10,
       "value": "\"Rewarded\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4711,
+      "offset": 4853,
       "length": 11,
       "value": "\"AppOpenAd\""
     },
@@ -18746,133 +19828,133 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1226,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1263,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1302,
       "length": 13,
       "value": "\"rewarded_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1341,
       "length": 10,
       "value": "\"app_open\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
+      "offset": 1374,
       "length": 11,
       "value": "\"native_ad\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1949,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
+      "offset": 2013,
       "length": 14,
       "value": "\"Interstitial\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 2079,
       "length": 10,
       "value": "\"Rewarded\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1951,
+      "offset": 2142,
       "length": 11,
       "value": "\"AppOpenAd\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2012,
+      "offset": 2203,
       "length": 8,
       "value": "\"Native\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2819,
       "length": 8,
       "value": "\"amazon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3228,
       "length": 4,
       "value": "\"no\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3253,
       "length": 6,
       "value": "\"auto\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 3282,
       "length": 8,
       "value": "\"manual\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 3313,
       "length": 8,
       "value": "\"hybrid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 3374,
       "length": 4,
       "value": "\"No\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3427,
       "length": 6,
       "value": "\"Auto\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3293,
+      "offset": 3484,
       "length": 8,
       "value": "\"Manual\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWRampConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3352,
+      "offset": 3543,
       "length": 8,
       "value": "\"Hybrid\""
     },
@@ -18900,7 +19982,7 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 12234,
+      "offset": 12542,
       "length": 4,
       "value": "true"
     },
@@ -18909,7 +19991,7 @@
       "kind": "StringLiteral",
       "offset": 43,
       "length": 16,
-      "value": "\"13.1.0-alpha.2\""
+      "value": "\"13.1.0-alpha.3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
@@ -19136,35 +20218,35 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 9,
       "value": "\"ad_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 864,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 18,
       "value": "\"full_screen_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 17,
       "value": "\"volume_low_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 18,

@@ -7,6 +7,7 @@ import AdSupport
 import AppLovinSDK
 import AppTrackingTransparency
 import ChartboostSDK
+import ConfiantSDK
 import CoreGraphics
 import DTBiOSSDK
 import DeveloperToolsSupport
@@ -356,6 +357,7 @@ extension Playwire.PMAd {
     @objc get
   }
   @objc @_Concurrency.MainActor @preconcurrency public func refresh()
+  @_Concurrency.MainActor @objc(reportAd:completion:) public func reportAd(_ report: Playwire.PWAdReport, completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 @objc public protocol PWViewAdDelegate {
   @objc func viewAdDidLoad(_ ad: Playwire.PWViewAd)
@@ -402,6 +404,35 @@ extension Playwire.PWBannerView : GoogleMobileAds.NativeAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdIsMuted(_ nativeAd: GoogleMobileAds.NativeAd)
+}
+@objc public enum PWAdReportIssue : Swift.Int {
+  case inBannerVideoOrSound
+  case offensiveOrAdultContent
+  case overlapsPageContent
+  case competitiveAdvertiser
+  case scamOrMisleadingClaim
+  case performanceOrBadUX
+  case other
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers public class PWAdReport : ObjectiveC.NSObject {
+  @objc final public let email: Swift.String
+  @objc final public let submittedByWebsiteOwner: Swift.Bool
+  @objc public init(email: Swift.String, submittedByWebsiteOwner: Swift.Bool = false)
+  @objc @discardableResult
+  public func flag(_ issue: Playwire.PWAdReportIssue) -> Playwire.PWAdReport
+  @objc @discardableResult
+  public func unflag(_ issue: Playwire.PWAdReportIssue) -> Playwire.PWAdReport
+  @objc public func isFlagged(_ issue: Playwire.PWAdReportIssue) -> Swift.Bool
+  @objc @discardableResult
+  public func withAdditionalDetails(_ details: Swift.String) -> Playwire.PWAdReport
+  @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public protocol PWNativeViewContentView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency var headlineLabel: UIKit.UILabel { get }
@@ -476,6 +507,7 @@ extension Playwire.PWNativeViewContentView {
   @_Concurrency.MainActor @preconcurrency public init(adUnitName: Swift.String, controller: UIKit.UIViewController?, factory: any Playwire.PWNativeViewFactory, delegate: (any Playwire.PWViewAdDelegate)? = nil)
   #endif
   @objc deinit
+  @_Concurrency.MainActor @objc override public func reportAd(_ report: Playwire.PWAdReport, completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 extension Playwire.PWNativeView : GoogleMobileAds.AdLoaderDelegate, GoogleMobileAds.NativeAdLoaderDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
@@ -546,6 +578,7 @@ extension Playwire.PWInterstitial : Playwire.PMInterstitialAdDelegate {
   @objc public func load()
   @objc public func load(params: Playwire.PWLoadParams)
   @objc public func show()
+  @objc @_Concurrency.MainActor public func reportAd(_ report: Playwire.PWAdReport, completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 @objc public protocol PWFullScreenAdDelegate {
   @objc func fullScreenAdDidLoad(_ ad: Playwire.PWFullScreenAd)
@@ -610,3 +643,6 @@ extension Playwire.FloatingViewCorner : Swift.RawRepresentable {}
 extension Playwire.LogLevel : Swift.Equatable {}
 extension Playwire.LogLevel : Swift.Hashable {}
 extension Playwire.LogLevel : Swift.RawRepresentable {}
+extension Playwire.PWAdReportIssue : Swift.Equatable {}
+extension Playwire.PWAdReportIssue : Swift.Hashable {}
+extension Playwire.PWAdReportIssue : Swift.RawRepresentable {}
