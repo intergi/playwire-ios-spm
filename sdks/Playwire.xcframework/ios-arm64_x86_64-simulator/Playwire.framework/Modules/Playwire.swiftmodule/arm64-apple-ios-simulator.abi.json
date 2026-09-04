@@ -18909,7 +18909,7 @@
       "kind": "StringLiteral",
       "offset": 43,
       "length": 16,
-      "value": "\"13.1.0-alpha.1\""
+      "value": "\"13.1.0-alpha.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
@@ -19136,35 +19136,35 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 9,
       "value": "\"ad_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 864,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 18,
       "value": "\"full_screen_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 17,
       "value": "\"volume_low_icon\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/PlaywireSDK.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Playwire\/IntermediateBuildFilesPath\/Playwire.build\/Release-iphonesimulator\/Playwire.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 18,
