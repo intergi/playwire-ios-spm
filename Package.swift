@@ -46,6 +46,7 @@ let package = Package(
             name: "PlaywireDistribution",
             dependencies: [
                 "Playwire",
+                "ConfiantSDK",
                 "DTBiOSSDK",
                 "AppLovinMediationAmazonAdMarketplaceAdapter",
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
@@ -86,6 +87,10 @@ let package = Package(
         .binaryTarget(
             name: "Playwire",
             path: "sdks/Playwire.xcframework"
+        ),
+        .binaryTarget(
+            name: "ConfiantSDK",
+            path: "VendorFrameworks/ConfiantSDK.xcframework"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",

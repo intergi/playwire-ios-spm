@@ -1,0 +1,771 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ConfiantSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+@_exported import ConfiantSDK
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct SlotMatching {
+  public enum Marked {
+    case slotView(slotView: UIKit.UIView)
+  }
+}
+@objc(ConfiantAdReporterReport) public class AdReporterReport : ObjectiveC.NSObject {
+  @objc convenience public init(email: Swift.String, submittedByWebsiteOwner: Swift.Bool, issueTypeInBannerVideoOrSound: Foundation.NSNumber?, issueTypeOffensiveOrAdultContent: Foundation.NSNumber?, issueTypeOverlapsPageContent: Foundation.NSNumber?, issueTypeCompetitiveAdvertiser: Foundation.NSNumber?, issueTypeScamOrMisleadingClaim: Foundation.NSNumber?, issueTypePerformanceOrBadUX: Foundation.NSNumber?, issueTypeOther: Foundation.NSNumber?, issueAdditionalDetails: Swift.String?)
+  public init(email: Swift.String, submittedByWebsiteOwner: Swift.Bool, issueTypeInBannerVideoOrSound: Swift.Bool?, issueTypeOffensiveOrAdultContent: Swift.Bool?, issueTypeOverlapsPageContent: Swift.Bool?, issueTypeCompetitiveAdvertiser: Swift.Bool?, issueTypeScamOrMisleadingClaim: Swift.Bool?, issueTypePerformanceOrBadUX: Swift.Bool?, issueTypeOther: Swift.Bool?, issueAdditionalDetails: Swift.String?)
+  @objc deinit
+}
+public struct AdReporter {
+  public enum Mode : Swift.UInt, Swift.Encodable {
+    case withoutSlotMatching
+    case withSlotMatching
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  public typealias Report = ConfiantSDK.AdReporterReport
+}
+@frozen public enum Result<TypeContent, TypeError> {
+  case success(TypeContent)
+  case failure(TypeError)
+}
+@_hasMissingDesignatedInitializers @objc(ConfiantDetectionObservingImpressionData) final public class DetectionObservingImpressionData : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public let provider: Swift.String
+  @objc final public let adType: Swift.String?
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @objc(ConfiantDetectionObservingReport) final public class DetectionObservingReport : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public let blockingType: Swift.Int
+  @objc final public let blockingId: Swift.String
+  @objc final public let isBlocked: Swift.Bool
+  @objc final public let impressionData: ConfiantSDK.DetectionObserving.ImpressionData
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @objc(ConfiantDetectionObservingEvent) final public class DetectionObservingEvent : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public let placementId: Swift.String?
+  @objc final public let detectionReport: ConfiantSDK.DetectionObserving.Report?
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct DetectionObserving {
+  public typealias Callback = (WebKit.WKWebView, ConfiantSDK.DetectionObserving.Event) -> ()
+  public enum Mode : Swift.Encodable {
+    case disabled
+    case withoutSlotMatching(ConfiantSDK.DetectionObserving.Callback)
+    case withSlotMatching(ConfiantSDK.DetectionObserving.Callback)
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+  public typealias ImpressionData = ConfiantSDK.DetectionObservingImpressionData
+  public typealias Report = ConfiantSDK.DetectionObservingReport
+  public typealias Event = ConfiantSDK.DetectionObservingEvent
+}
+@_hasMissingDesignatedInitializers @objc(ConfiantSettings) final public class Settings : ObjectiveC.NSObject {
+  @objc public static func with(propertyId propertyIdNSString_mustCopy: Foundation.NSString, error ioError: Foundation.NSErrorPointer) -> Swift.Optional<ConfiantSDK.Settings>
+  public static func with(propertyId propertyIdString: Swift.String) -> ConfiantSDK.Result<ConfiantSDK.Settings, ConfiantSDK.Error>
+  @objc public static func with(propertyId propertyIdNSString_mustCopy: Foundation.NSString, enableRate enableRate_mustCopy: Swift.Optional<Foundation.NSNumber>, enableHTTPCache enableHTTPCache_mustCopy: Swift.Optional<Foundation.NSNumber>, adReporterModeEnableSlotMatching adReporterModeEnableSlotMatching_mustCopy: Swift.Optional<Foundation.NSNumber>, detectionObservingEnabled detectionObservingEnabled_mustCopy: Swift.Optional<Foundation.NSNumber>, detectionObservingCallback detectionObservingCallbackIfAny: Swift.Optional<ConfiantSDK.DetectionObserving.Callback>, detectionObservingEnableSlotMatching detectionObservingEnableSlotMatching_mustCopy: Swift.Optional<Foundation.NSNumber>, forceBlockOnLoad forceBlockOnLoad_mustCopy: Swift.Optional<Foundation.NSNumber>, error ioError: Foundation.NSErrorPointer) -> Swift.Optional<ConfiantSDK.Settings>
+  public static func with(propertyId propertyIdString: Swift.String, enableRate: Swift.Optional<Swift.Double>, enableHTTPCache: Swift.Optional<Swift.Bool>, adReporterMode: Swift.Optional<ConfiantSDK.AdReporter.Mode>, detectionObservingMode: Swift.Optional<ConfiantSDK.DetectionObserving.Mode>, forceBlockOnLoad: Swift.Optional<Swift.Bool>) -> ConfiantSDK.Result<ConfiantSDK.Settings, ConfiantSDK.Error>
+  @objc deinit
+}
+extension ConfiantSDK.Confiant {
+  final public func setDebugCallback(callback: Swift.Optional<(Foundation.NSString) -> ()>)
+}
+extension ConfiantSDK.Confiant {
+  final public func reloadConfig(completion completionClient: @escaping (ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ())
+}
+extension ConfiantSDK.Confiant {
+  final public func reloadScanningScript(completion completionClient: @escaping (ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ())
+}
+@_hasMissingDesignatedInitializers @objc(ConfiantError) public class Error : ObjectiveC.NSObject, Foundation.CustomNSError, Foundation.LocalizedError {
+  public static var domain: Swift.String {
+    get
+  }
+  @objc final public let code: Swift.Int
+  public var errorCode: Swift.Int {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+  public var errorDescription: Swift.String {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+  public var helpAnchor: Swift.String? {
+    get
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorObjCCouldNotCopyNSStringNotCopyable) final public class CouldNotCopyNSStringNotCopyable : ConfiantSDK.Error {
+    @objc final public let objectDescription: Swift.String
+    @objc final public let objectClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorObjCCouldNotCopyNSStringCopyIsNotString) final public class CouldNotCopyNSStringCopyIsNotString : ConfiantSDK.Error {
+    @objc final public let objectDescription: Swift.String
+    @objc final public let objectClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorScanningDisabledDueToMemoryThreshold) final public class ScanningDisabledDueToMemoryThreshold : ConfiantSDK.Error {
+    @objc final public let virtualMemoryUsedRate: Foundation.NSNumber?
+    @objc final public let deviceMemoryUsedRate: Foundation.NSNumber?
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorScanningScriptTemplateFillIndexes) final public class ScanningScriptTemplateFillIndexes : ConfiantSDK.Error {
+    @objc final public let rangeOfInterfaceSettingsLower: Swift.Int
+    @objc final public let rangeOfInterfaceSettingsUpper: Swift.Int
+    @objc final public let rangePerWebViewSettingsLower: Swift.Int
+    @objc final public let rangePerWebViewSettingsUpper: Swift.Int
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassFromName) final public class RuntimeClassFromName : ConfiantSDK.Error {
+    @objc final public let name: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassFromNameClassNotFound) final public class RuntimeClassFromNameClassNotFound : ConfiantSDK.Error {
+    @objc final public let name: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassFromPlatformClassClassIsNotKindOfNSObject) final public class RuntimeClassFromPlatformClassClassIsNotKindOfNSObject : ConfiantSDK.Error {
+    @objc final public let platformClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassFromTypeEncoding) final public class RuntimeClassFromTypeEncoding : ConfiantSDK.Error {
+    @objc final public let platformTypeEncoding: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassFromTypeEncodingUnexpectedTypeEncoding) final public class RuntimeClassFromTypeEncodingUnexpectedTypeEncoding : ConfiantSDK.Error {
+    @objc final public let platformTypeEncoding: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassIvarNameIvarNotFound) final public class RuntimeClassIvarNameIvarNotFound : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let ivarName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassGetPropertyNameNoPropertyWithGivenName) final public class RuntimeClassGetPropertyNameNoPropertyWithGivenName : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassLookupPropertyNameNoPropertyWithGivenName) final public class RuntimeClassLookupPropertyNameNoPropertyWithGivenName : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassPropertyNameGetMethod) final public class RuntimeClassPropertyNameGetMethod : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc final public let platformPropertyDescription: Swift.String
+    @objc final public let platformGetterSelectorDescription: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassPropertyNamePropertyHasNoEncodedTypeNameAttribute) final public class RuntimeClassPropertyNamePropertyHasNoEncodedTypeNameAttribute : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc final public let platformPropertyDescription: Swift.String
+    @objc final public let platformGetterSelectorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassPropertyNameGetPropertyClass) final public class RuntimeClassPropertyNameGetPropertyClass : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc final public let platformPropertyDescription: Swift.String
+    @objc final public let platformTypeEncoding: Swift.String
+    @objc final public let platformGetterSelectorDescription: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassPropertyNamePropertyTypeIsNotSupported) final public class RuntimeClassPropertyNamePropertyTypeIsNotSupported : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc final public let platformPropertyDescription: Swift.String
+    @objc final public let platformTypeEncoding: Swift.String
+    @objc final public let platformGetterSelectorDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassPropertyNameMethodClassIsNotOfKindOfPropertyClass) final public class RuntimeClassPropertyNameMethodClassIsNotOfKindOfPropertyClass : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let propertyName: Swift.String
+    @objc final public let platformPropertyDescription: Swift.String
+    @objc final public let platformTypeEncoding: Swift.String
+    @objc final public let platformGetterSelectorDescription: Swift.String
+    @objc final public let propertyClassDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassGetMethodNameMethodNotFound) final public class RuntimeClassGetMethodNameMethodNotFound : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let platformSelectorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassMethodNameWrongNumberOfArguments) final public class RuntimeClassMethodNameWrongNumberOfArguments : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let platformSelectorDescription: Swift.String
+    @objc final public let platformMethodDescription: Swift.String
+    @objc final public let platformMethodTypeEncoding: Swift.String?
+    @objc final public let numberOfArguments: Swift.UInt32
+    @objc final public let expectedNumberOfArguments: Swift.Int
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassMethodNameNoTypeForArgument) final public class RuntimeClassMethodNameNoTypeForArgument : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let platformSelectorDescription: Swift.String
+    @objc final public let platformMethodDescription: Swift.String
+    @objc final public let platformMethodTypeEncoding: Swift.String?
+    @objc final public let numberOfArguments: Swift.UInt32
+    @objc final public let argumentIndex: Swift.UInt32
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassMethodNameUnexpectedTypeForArgument) final public class RuntimeClassMethodNameUnexpectedTypeForArgument : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let platformSelectorDescription: Swift.String
+    @objc final public let platformMethodDescription: Swift.String
+    @objc final public let platformMethodTypeEncoding: Swift.String?
+    @objc final public let numberOfArguments: Swift.UInt32
+    @objc final public let argumentIndex: Swift.UInt32
+    @objc final public let argumentTypeEncoding: Swift.String
+    @objc final public let expectedArgumentTypeEncoding: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeClassMethodNameReturnClass) final public class RuntimeClassMethodNameReturnClass : ConfiantSDK.Error {
+    @objc final public let classDescription: Swift.String
+    @objc final public let platformSelectorDescription: Swift.String
+    @objc final public let platformMethodDescription: Swift.String
+    @objc final public let platformMethodTypeEncoding: Swift.String?
+    @objc final public let numberOfArguments: Swift.UInt32
+    @objc final public let platformReturnTypeEncoding: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeInstanceFromPlatformInstanceInstanceIsNotKindOfNSObject) final public class RuntimeInstanceFromPlatformInstanceInstanceIsNotKindOfNSObject : ConfiantSDK.Error {
+    @objc final public let platformInstanceTypeDescription: Swift.String
+    @objc final public let platformInstanceDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeInstanceAssertIsKindOfClass) final public class RuntimeInstanceAssertIsKindOfClass : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let expectedClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeIvarGetNonNullable) final public class RuntimeIvarGetNonNullable : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let ivarDescription: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeIvarGetNonNullableValueIsNil) final public class RuntimeIvarGetNonNullableValueIsNil : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let ivarDescription: Swift.String
+    @objc final public let expectedTypeDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeIvarGetInstanceBelongsToUnexpectedClass) final public class RuntimeIvarGetInstanceBelongsToUnexpectedClass : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let ivarDescription: Swift.String
+    @objc final public let expectedClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeIvarGetValueHasUnexpectedType) final public class RuntimeIvarGetValueHasUnexpectedType : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let ivarDescription: Swift.String
+    @objc final public let valueTypeDescription: Swift.String
+    @objc final public let valueDescription: Swift.String
+    @objc final public let expectedClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetNonNullable) final public class RuntimeMethodGetNonNullable : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetNonNullableValueIsMissing) final public class RuntimeMethodGetNonNullableValueIsMissing : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let expectedPlatformClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetInstanceBelongsToUnexpectedClass) final public class RuntimeMethodGetInstanceBelongsToUnexpectedClass : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetValueWrongArgumentCount) final public class RuntimeMethodGetValueWrongArgumentCount : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let givenArgumentsCount: Swift.Int
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetValueWrongArgumentType) final public class RuntimeMethodGetValueWrongArgumentType : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let argumentIndex: Swift.Int
+    @objc final public let givenArgumentValueDescription: Swift.String
+    @objc final public let givenArgumentPlatformClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetExpectedReturnClassIsInvalid) final public class RuntimeMethodGetExpectedReturnClassIsInvalid : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let expectedReturnPlatformClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetValueValueHasUnexpectedClass) final public class RuntimeMethodGetValueValueHasUnexpectedClass : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let valuePlatformTypeDescription: Swift.String
+    @objc final public let valueDescription: Swift.String
+    @objc final public let callerExpectedClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetValueInstanceDoesNotRespondToGetter) final public class RuntimeMethodGetValueInstanceDoesNotRespondToGetter : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let callerExpectedClassDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorRuntimeMethodGetValueException) final public class RuntimeMethodGetValueException : ConfiantSDK.Error {
+    @objc final public let instanceDescription: Swift.String
+    @objc final public let methodDescription: Swift.String
+    @objc final public let underlyingExceptionReason: Swift.String
+    @objc final public let underlyingExceptionDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorMarkersCreation) final public class MarkersCreation : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorConfigInWebViewGeneratingFailed) final public class ConfigInWebViewGeneratingFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHook0) final public class Hook0 : ConfiantSDK.Error {
+    @objc final public let taskName: Swift.String
+    @objc final public let argument: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHook1) final public class Hook1 : ConfiantSDK.Error {
+    @objc final public let taskName: Swift.String
+    @objc final public let argument: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHook2) final public class Hook2 : ConfiantSDK.Error {
+    @objc final public let taskName: Swift.String
+    @objc final public let argument: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHook3) final public class Hook3 : ConfiantSDK.Error {
+    @objc final public let taskName: Swift.String
+    @objc final public let argument: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookW1) final public class HookW1 : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookW2) final public class HookW2 : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookLRFileSizeException) final public class HookLRFileSizeException : ConfiantSDK.Error {
+    @objc final public let fileURLString: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookLRFileSizeNotAcceptable) final public class HookLRFileSizeNotAcceptable : ConfiantSDK.Error {
+    @objc final public let fileURLString: Swift.String
+    @objc final public let fileSizeDescription: Swift.String
+    @objc final public let fileSizeLimit: Swift.Int
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookLRFileContentException) final public class HookLRFileContentException : ConfiantSDK.Error {
+    @objc final public let fileURLString: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookInjectionPointNotFound) final public class HookInjectionPointNotFound : ConfiantSDK.Error {
+    @objc final public let baseURLDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorHookNothingToInject) final public class HookNothingToInject : ConfiantSDK.Error {
+    @objc final public let baseURLDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPostMessageUnknownName) final public class PostMessageUnknownName : ConfiantSDK.Error {
+    @objc final public let name: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPostMessageUnknownMessage) final public class PostMessageUnknownMessage : ConfiantSDK.Error {
+    @objc final public let postedMessage: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPostMessageBodyIsNotString) final public class PostMessageBodyIsNotString : ConfiantSDK.Error {
+    @objc final public let postMessageBodyTypeDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserDecodingJSONData) final public class ParserDecodingJSONData : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserDecodingJSONDataException) final public class ParserDecodingJSONDataException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodingJSONData) final public class ParserEncodingJSONData : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodingJSONDataException) final public class ParserEncodingJSONDataException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodingJSON) final public class ParserEncodingJSON : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodingJSONException) final public class ParserEncodingJSONException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserTransformEncode) final public class ParserTransformEncode : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserTransformEncodeException) final public class ParserTransformEncodeException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserTransformDecode) final public class ParserTransformDecode : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserTransformDecodeException) final public class ParserTransformDecodeException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserDecodeSingleValue) final public class ParserDecodeSingleValue : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserDecodeSingleValueException) final public class ParserDecodeSingleValueException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodeSingleValue) final public class ParserEncodeSingleValue : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodeSingleValueException) final public class ParserEncodeSingleValueException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodeArray) final public class ParserEncodeArray : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserEncodeArrayException) final public class ParserEncodeArrayException : ConfiantSDK.Error {
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserBase64StringToDataFailed) final public class ParserBase64StringToDataFailed : ConfiantSDK.Error {
+    @objc final public let base64EncodedString: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserDataToUTF8StringFailed) final public class ParserDataToUTF8StringFailed : ConfiantSDK.Error {
+    @objc final public let base64EncodedString: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserStringToUTF8DataFailed) final public class ParserStringToUTF8DataFailed : ConfiantSDK.Error {
+    @objc final public let string: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorParserRegexCreationFailedException) final public class ParserRegexCreationFailedException : ConfiantSDK.Error {
+    @objc final public let pattern: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPropertyIdDecodingFailed) final public class PropertyIdDecodingFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPropertyIdEncodingFailed) final public class PropertyIdEncodingFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPropertyIdCreationFromStringFailed) final public class PropertyIdCreationFromStringFailed : ConfiantSDK.Error {
+    @objc final public let string: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPropertyIdInvalidFormat) final public class PropertyIdInvalidFormat : ConfiantSDK.Error {
+    @objc final public let string: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorPropertyIdCheckFailed) final public class PropertyIdCheckFailed : ConfiantSDK.Error {
+    @objc final public let string: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorWerrorSubmissionFailedWrongId) final public class WerrorSubmissionFailedWrongId : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorWerrorSubmissionFailed) final public class WerrorSubmissionFailed : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorOneOffScanResultSubmissionFailedWrongId) final public class OneOffScanResultSubmissionFailedWrongId : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorOneOffScanResultSubmissionFailed) final public class OneOffScanResultSubmissionFailed : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorSlotNotMatchesGivenPlacementId) final public class SlotNotMatchesGivenPlacementId : ConfiantSDK.Error {
+    @objc final public let placementId: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDetectionReportSubmissionFailedWrongId) final public class DetectionReportSubmissionFailedWrongId : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDetectionReportSubmissionFailedWithError) final public class DetectionReportSubmissionFailedWithError : ConfiantSDK.Error {
+    @objc final public let payload: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDetectionObservingGetAdType) final public class DetectionObservingGetAdType : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDetectionObservingGetAdTypeComponentNameUnexpected) final public class DetectionObservingGetAdTypeComponentNameUnexpected : ConfiantSDK.Error {
+    @objc final public let componentName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportUponInitGenerationFailed) final public class ReportUponInitGenerationFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportUpdatedGenerationFailed) final public class ReportUpdatedGenerationFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportForAdEnvironmentGenerationFailed) final public class ReportForAdEnvironmentGenerationFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportForDetectionCallbackGenerationFailed) final public class ReportForDetectionCallbackGenerationFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdInternalGeneration) final public class ReportAdInternalGeneration : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdFailedWithError) final public class ReportAdFailedWithError : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdIntegratedScriptFailedWithPlatformError) final public class ReportAdIntegratedScriptFailedWithPlatformError : ConfiantSDK.Error {
+    @objc final public let platformError: any Swift.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdIntegratedScriptError) final public class ReportAdIntegratedScriptError : ConfiantSDK.Error {
+    @objc final public let scriptErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdIntegratedScriptUnexpectedResultType) final public class ReportAdIntegratedScriptUnexpectedResultType : ConfiantSDK.Error {
+    @objc final public let resultType: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdDedicatedScriptFailedWithPlatformError) final public class ReportAdDedicatedScriptFailedWithPlatformError : ConfiantSDK.Error {
+    @objc final public let platformError: any Swift.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdDedicatedScriptUnexpectedResultType) final public class ReportAdDedicatedScriptUnexpectedResultType : ConfiantSDK.Error {
+    @objc final public let resultType: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdDedicatedScriptUnexpectedResultKeyType) final public class ReportAdDedicatedScriptUnexpectedResultKeyType : ConfiantSDK.Error {
+    @objc final public let resultType: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorReportAdDedicatedScriptError) final public class ReportAdDedicatedScriptError : ConfiantSDK.Error {
+    @objc final public let scriptErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorConfigCDNRetrieval) final public class ConfigCDNRetrieval : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorConfigCDNResolutionMissingAdditionalConfig1) final public class ConfigCDNResolutionMissingAdditionalConfig1 : ConfiantSDK.Error {
+    @objc final public let additionalConfigName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorConfigCDNResolutionMissingAdditionalConfig2) final public class ConfigCDNResolutionMissingAdditionalConfig2 : ConfiantSDK.Error {
+    @objc final public let additionalConfigName: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorScanningScriptDownload) final public class ScanningScriptDownload : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDownloadFailed) final public class DownloadFailed : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDownloadNoData) final public class DownloadNoData : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDownloadHTTPResponseNotOK) final public class DownloadHTTPResponseNotOK : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let statusCode: Swift.Int
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorDownloadUnknownResponseType) final public class DownloadUnknownResponseType : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let responseTypeDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorUploadFailed) final public class UploadFailed : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let underlyingErrorDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorUploadHTTPResponseNotOK) final public class UploadHTTPResponseNotOK : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let statusCode: ObjectiveC.NSInteger
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorUploadUnknownResponseType) final public class UploadUnknownResponseType : ConfiantSDK.Error {
+    @objc final public let urlString: Swift.String
+    @objc final public let responseTypeDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorScanningScriptTemplateFillCRMPRCSRC) final public class ScanningScriptTemplateFillCRMPRCSRC : ConfiantSDK.Error {
+    @objc final public let kind: Swift.UInt
+    @objc final public let value: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorScanningScriptIntegration) final public class ScanningScriptIntegration : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorEnvironmentMatchingURLRegexDecodingFailed) final public class EnvironmentMatchingURLRegexDecodingFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorEnvironmentMatchingURLRegexEncodingFailed) final public class EnvironmentMatchingURLRegexEncodingFailed : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorNativeAdDataFormWebViewContentString) final public class NativeAdDataFormWebViewContentString : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorNativeAdFormNativeAdData) final public class NativeAdFormNativeAdData : ConfiantSDK.Error {
+    @objc final public let nativeAdType: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorNativeAdFormNativeAdDataItemOfUnexpectedType1) final public class NativeAdFormNativeAdDataItemOfUnexpectedType1 : ConfiantSDK.Error {
+    @objc final public let nativeAdType: Swift.String
+    @objc final public let holdingTypeDescription: Swift.String
+    @objc final public let holdingValueDescription: Swift.String
+    @objc final public let childItemName: Swift.String
+    @objc final public let valueTypeDescription: Swift.String
+    @objc final public let valueDescription: Swift.String
+    @objc final public let expectedTypeDescription: Swift.String
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorSubmitNativeAdData) final public class SubmitNativeAdData : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorUpdate) final public class Update : ConfiantSDK.Error {
+    @objc final public let underlyingErrors: [ConfiantSDK.Error]
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorTimedUpdate) final public class TimedUpdate : ConfiantSDK.Error {
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers @objc(ConfiantErrorQASettingsDecodingInputValueFailed) final public class QASettingsDecodingInputValueFailed : ConfiantSDK.Error {
+    @objc final public let valueDescription: Swift.String
+    @objc final public let valueTypeDescription: Swift.String
+    @objc final public let underlyingError: ConfiantSDK.Error
+    @objc deinit
+  }
+  @objc deinit
+}
+public enum NativeAd {
+  case gma(nativeAdObject: Swift.AnyObject)
+  case gmaCustom(customNativeAdObject: Swift.AnyObject)
+  case meta(nativeAdObject: Swift.AnyObject)
+  case metaBanner(nativeBannerAdObject: Swift.AnyObject)
+}
+extension ConfiantSDK.Settings {
+  public static func forQA(global_propertyId_string: Swift.String, inApp_adReporter_mode: Swift.Optional<ConfiantSDK.AdReporter.Mode>, inApp_detectionObserving_mode: Swift.Optional<ConfiantSDK.DetectionObserving.Mode>, inApp_enable_rate: Swift.Optional<Swift.Double>, inApp_httpCaching_enable: Swift.Optional<Swift.Bool>, inWebView_debug_enabled: Swift.Optional<Swift.Bool>, inWebView_debug_forceBlock_onLoad: Swift.Optional<Swift.Bool>, global_debug_propertyId_allowTestAccount: Swift.Optional<Swift.Bool>, global_servers_metrics: Swift.Optional<Foundation.URL>, inApp_adReporter_enabled: Swift.Optional<Swift.Bool>, inApp_config_timeToLive: Swift.Optional<Foundation.TimeInterval>, inApp_debug_enabled: Swift.Optional<Swift.Bool>, inApp_debug_nativeScanning_webViewRenderProcessTerminate: Swift.Optional<Swift.Bool>, inApp_debug_override_additionalConfigs_distributions_random: Swift.Optional<Swift.Double>, inApp_debug_override_webViewIntegration: Swift.Optional<Swift.String>, inApp_debug_override_toAllWebViewsSettings: Swift.Optional<Swift.String>, inApp_detectionObserving_sampling_callback_rate: Swift.Optional<Swift.Double>, inApp_detectionObserving_sampling_submit_rate: Swift.Optional<Swift.Double>, inApp_errors_tagsToReport settings_inApp_errors_tagsToReport_mustCopy: Swift.Optional<any Swift.Encodable>, inApp_exclusion_environment_exclude settings_inApp_exclusion_environment_exclude_mustCopy: Swift.Optional<any Swift.Encodable>, inApp_exclusion_environment_include settings_inApp_exclusion_environment_include_mustCopy: Swift.Optional<any Swift.Encodable>, inApp_exclusion_environment_policy settings_inApp_exclusion_environment_policy_mustCopy: Swift.Optional<any Swift.Encodable>, inApp_init_sampling_rate: Swift.Optional<Swift.Double>, inApp_integration_enabled: Swift.Optional<Swift.Bool>, inApp_integration_find_preferByField: Swift.Optional<Swift.Bool>, inApp_integration_find_fallbackToAlternative: Swift.Optional<Swift.Bool>, inApp_integration_integration_preferByImported: Swift.Optional<Swift.Bool>, inApp_integration_integration_fallbackToAlternative: Swift.Optional<Swift.Bool>, inApp_integration_integration_importedValues: Swift.Optional<Swift.Array<Swift.Int>>, inApp_sampling_environment_rate: Swift.Optional<Swift.Double>, inApp_scanning_enabled: Swift.Optional<Swift.Bool>, inApp_scanning_memorythreshold_device_rate inApp_scanning_memorythreshold_device_rate_must_copy: Swift.Optional<any Swift.Encodable>, inApp_scanning_memorythreshold_virtual_rate inApp_scanning_memorythreshold_virtual_rate_must_copy: Swift.Optional<any Swift.Encodable>, inApp_servers_config: Swift.Optional<Foundation.URL>, inApp_servers_scanning_script: Swift.Optional<Foundation.URL>, inApp_update_sampling_rate: Swift.Optional<Swift.Double>, inWebView_adProviders settings_inWebView_adProviders_mustCopy: Swift.Optional<any Swift.Encodable>, inWebView_adReporter_enabled: Swift.Optional<Swift.Bool>, inWebView_adReporter_endpoint: Swift.Optional<Foundation.URL>, inWebView_debug_forceBlock_immediate: Swift.Optional<Swift.Bool>, inWebView_enabled: Swift.Optional<Swift.Bool>, inWebView_errors_tagsToReport settings_inWebView_errors_tagsToReport_mustCopy: Swift.Optional<any Swift.Encodable>, inWebView_exclusion_scanning_rules settings_inWebView_exclusion_scanning_rules_mustCopy: Swift.Optional<any Swift.Encodable>, inWebView_malware_passback_variables settings_inWebView_malware_passback_variables_mustCopy: Swift.Optional<any Swift.Encodable>, inWebView_malware_scanning_rules settings_inWebView_malware_scanning_rules_mustCopy: Swift.Optional<any Swift.Encodable>, inWebView_mraid_autoCloseInterstitials: Swift.Optional<Swift.Double>, inWebView_expandablesTracking_enableRate: Swift.Optional<Swift.Double>, inWebView_sampling_creative_rate: Swift.Optional<Swift.Double>, inWebView_scanning_enabled: Swift.Optional<Swift.Bool>) -> ConfiantSDK.Result<ConfiantSDK.Settings, ConfiantSDK.Error>
+}
+@_hasMissingDesignatedInitializers @objc final public class Confiant : ObjectiveC.NSObject {
+  @objc public static func initialize(settings: ConfiantSDK.Settings, completion completionClientObjCIfAny: ((ConfiantSDK.Confiant?, Foundation.NSError?) -> ())?)
+  public static func initialize(settings: ConfiantSDK.Settings, completion completionClient: ((ConfiantSDK.Result<ConfiantSDK.Confiant, ConfiantSDK.Error>) -> ())?)
+  @objc public static func markSlotView(_ slotView: UIKit.UIView, withPlacementId placementIdNSString_mustCopy: Foundation.NSString) -> Swift.Optional<Foundation.NSError>
+  @available(*, deprecated, message: "Please use instance method")
+  public static func mark(_ markedValue: ConfiantSDK.SlotMatching.Marked, withPlacementId placementId: Swift.String) -> ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>
+  @available(*, deprecated, message: "Please use instance method")
+  @objc public static func submitNativeAdGMA(_ googleNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @available(*, deprecated, message: "Please use instance method")
+  @objc public static func submitCustomNativeAdGMA(_ googleCustomNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @available(*, deprecated, message: "Please use instance method")
+  @objc public static func submitNativeFAN(_ facebookNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @available(*, deprecated, message: "Please use instance method")
+  @objc public static func submitNativeBannerFAN(_ facebookNativeBannerAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @available(*, deprecated, message: "Please use instance method")
+  public static func submitNativeAd(_ nativeAd: ConfiantSDK.NativeAd, completion completionClient: @escaping (ConfiantSDK.Result<Swift.Bool, ConfiantSDK.Error>) -> ())
+  @objc final public func submitNativeAdGMA(_ googleNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @objc final public func submitCustomNativeAdGMA(_ googleCustomNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @objc final public func submitNativeFAN(_ facebookNativeAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  @objc final public func submitNativeBannerFAN(_ facebookNativeBannerAdObject: Swift.AnyObject, completion completionClient: @escaping (Foundation.NSNumber?, Foundation.NSError?) -> ())
+  final public func submitNativeAd(_ nativeAd: ConfiantSDK.NativeAd, completion completionClient: @escaping (ConfiantSDK.Result<Swift.Bool, ConfiantSDK.Error>) -> ())
+  @objc final public func markSlotView(_ slotView: UIKit.UIView, withPlacementId placementIdNSString_mustCopy: Foundation.NSString) -> Swift.Optional<Foundation.NSError>
+  final public func mark(_ markedValue: ConfiantSDK.SlotMatching.Marked, withPlacementId placementId: Swift.String)
+  @objc final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, webView: WebKit.WKWebView, completion completionClientIfAny: Swift.Optional<(Foundation.NSError?) -> ()>)
+  final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, webView: WebKit.WKWebView, completion completionClientIfAny: Swift.Optional<(ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ()>)
+  @objc final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, forSlotView slotView: UIKit.UIView, completion completionClientIfAny: Swift.Optional<(Foundation.NSError?) -> ()>)
+  final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, forMarkedItem marked: ConfiantSDK.SlotMatching.Marked, completion completionClientIfAny: Swift.Optional<(ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ()>)
+  @objc final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, forPlacementId placementId_mustCopy: Foundation.NSString, completion completionClientIfAny: Swift.Optional<(Foundation.NSError?) -> ()>)
+  final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, forPlacementId placementId: Swift.String, completion completionClientIfAny: Swift.Optional<(ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ()>)
+  @objc final public func reportAd(report adReport: ConfiantSDK.AdReporterReport, googleNativeAdObject: Swift.AnyObject, completion completionClientIfAny: Swift.Optional<(Foundation.NSError?) -> ()>)
+  @objc final public func reportAd(report adReport: ConfiantSDK.AdReporterReport, googleCustomNativeAdObject: Swift.AnyObject, completion completionClientIfAny: Swift.Optional<(Foundation.NSError?) -> ()>)
+  final public func reportAd(report adReport: ConfiantSDK.AdReporter.Report, nativeAd: ConfiantSDK.NativeAd, completion completionClientIfAny: Swift.Optional<(ConfiantSDK.Result<Swift.Void, ConfiantSDK.Error>) -> ()>)
+  @objc deinit
+}
+extension ConfiantSDK.AdReporter.Mode : Swift.Equatable {}
+extension ConfiantSDK.AdReporter.Mode : Swift.Hashable {}
+extension ConfiantSDK.AdReporter.Mode : Swift.RawRepresentable {}
