@@ -1,5 +1,4 @@
 # Playwire iOS SDK
-Integrate the Playwire iOS SDK into a consumer app with Swift Package Manager.
 
 ## Requirements
 
@@ -18,6 +17,30 @@ Integrate the Playwire iOS SDK into a consumer app with Swift Package Manager.
 4. Choose the dependency rule and Playwire release required by your app.
 5. Add the **Playwire** package product to your app target.
 
+## Add Playwire to another Swift package
+
+Add this repository to the package's dependencies, replacing `<version>` with the desired Playwire release:
+
+```swift
+dependencies: [
+    .package(
+        url: "https://github.com/intergi/playwire-ios-spm.git",
+        from: "<version>"
+    )
+]
+```
+
+Then add the Playwire product to the target that uses it:
+
+```swift
+.target(
+    name: "YourTarget",
+    dependencies: [
+        .product(name: "Playwire", package: "playwire-ios-spm")
+    ]
+)
+```
+
 ## Add the required linker flag
 
 Configure the consumer app target after adding the package:
@@ -32,8 +55,6 @@ The setting should contain:
 ```text
 $(inherited) -ObjC
 ```
-
-Set the flag on the final app target.
 
 ## Import the SDK
 
