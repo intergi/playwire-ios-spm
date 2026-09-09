@@ -1,44 +1,48 @@
 # Playwire iOS SDK
+Integrate the Playwire iOS SDK into a consumer app with Swift Package Manager.
 
-The Playwire iOS SDK is distributed through Swift Package Manager and supports iOS 13 or later.
+## Requirements
+
+- iOS 13.0 or later
 
 ## Add Playwire to an Xcode project
 
-1. In Xcode, open your project and select **File > Add Package Dependencies**.
-2. Enter this repository's URL in the search field.
-3. Select the version rule appropriate for your project, then click **Add Package**.
-4. Add the **Playwire** library to your app target.
+1. Open your app project in Xcode.
+2. Select **File > Add Package Dependencies**.
+3. Enter the package URL:
 
-You can then import the SDK where needed:
+   ```text
+   https://github.com/intergi/playwire-ios-spm.git
+   ```
+
+4. Choose the dependency rule and Playwire release required by your app.
+5. Add the **Playwire** package product to your app target.
+
+## Add the required linker flag
+
+Configure the consumer app target after adding the package:
+
+1. Select the project in Xcode's Project navigator.
+2. Select the **app target**, then open **Build Settings**.
+3. Search for **Other Linker Flags**.
+4. Add `-ObjC` for every build configuration used by the app, while retaining `$(inherited)`.
+
+The setting should contain:
+
+```text
+$(inherited) -ObjC
+```
+
+Set the flag on the final app target.
+
+## Import the SDK
+
+After Xcode resolves the package, import Playwire where it is needed:
 
 ```swift
 import Playwire
 ```
 
-## Add Playwire to a Swift package
+## Next steps
 
-Add this repository to the `dependencies` array in your `Package.swift`, replacing `<version>` with the desired release:
-
-```swift
-dependencies: [
-    .package(
-        url: "https://github.com/intergi/playwire-ios-spm.git",
-        from: "<version>"
-    )
-]
-```
-
-Then add Playwire to your target dependencies:
-
-```swift
-.target(
-    name: "YourTarget",
-    dependencies: [
-        .product(name: "Playwire", package: "playwire-ios-spm")
-    ]
-)
-```
-
-## Usage
-
-Setup and usage instructions are available in the [Playwire Mobile App SDK documentation](https://support.playwire.com/playwire-mobile-app-sdk#get-started-with-playwire-mobile-app-sdk).
+For SDK initialization and ad integration, see the [Playwire Mobile App SDK documentation](https://support.playwire.com/playwire-mobile-app-sdk#get-started-with-playwire-mobile-app-sdk).
