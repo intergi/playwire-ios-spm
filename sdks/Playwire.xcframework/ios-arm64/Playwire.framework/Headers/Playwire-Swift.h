@@ -1115,8 +1115,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 @property (nonatomic, readonly, strong) PWTargeting * _Nonnull targeting;
 @property (nonatomic) BOOL test;
 @property (nonatomic) enum PWCMPType cmp;
+/// Checks if the user is in a region requiring a Privacy Options entry point (e.g., EEA/UK).
+@property (nonatomic, readonly) BOOL isPrivacyOptionsRequired;
 - (void)startWithPublisherId:(NSString * _Nonnull)publisherId appId:(NSString * _Nonnull)appId viewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)initializeWithPublisherId:(NSString * _Nonnull)publisherId appId:(NSString * _Nonnull)appId viewController:(UIViewController * _Nonnull)viewController completionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_DEPRECATED_MSG("This method silently fails on error. Please migrate to 'start' to properly handle SDK initialization failures.");
+/// Displays the Privacy Options form so the user can modify or revoke consent choices.
+/// @param viewController The host ViewController to display the form.
+/// @param completion Callback invoked with <code>true</code> on success or <code>false</code> on error/dismissal.
+- (void)showPrivacyOptionsFormFrom:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(BOOL))completion;
 @property (nonatomic) BOOL isMuted;
 - (void)configureWithRequest:(GAMRequest * _Nonnull)request;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

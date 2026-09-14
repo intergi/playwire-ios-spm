@@ -612,6 +612,9 @@ public struct PWAdRevenue {
   @objc final public let targeting: Playwire.PWTargeting
   @objc public var test: Swift.Bool
   @objc public var cmp: Playwire.PWCMPType
+  @objc public var isPrivacyOptionsRequired: Swift.Bool {
+    @objc get
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   public func start(publisherId: Swift.String, appId: Swift.String, viewController: UIKit.UIViewController, completion: @escaping (Swift.Bool, Playwire.PWInitError?) -> Swift.Void)
   #endif
@@ -621,6 +624,7 @@ public struct PWAdRevenue {
   #endif
   @objc @available(*, deprecated, message: "This method silently fails on error. Please migrate to 'start' to properly handle SDK initialization failures.")
   public func initialize(publisherId: Swift.String, appId: Swift.String, viewController: UIKit.UIViewController, completionHandler: @escaping () -> Swift.Void)
+  @objc @_Concurrency.MainActor public func showPrivacyOptionsForm(from viewController: UIKit.UIViewController, completion: @escaping (Swift.Bool) -> Swift.Void = { _ in })
   @objc public var isMuted: Swift.Bool {
     @objc get
     @objc set
