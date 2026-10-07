@@ -728,56 +728,6 @@ SWIFT_CLASS("_TtC8Playwire17PWAdLoaderBuilder")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum PWAdReportIssue : NSInteger;
-/// Describes an ad reported by a consumer of the SDK as offensive, malicious, or otherwise
-/// problematic. Pass an instance of this class to an ad object’s <code>reportAd(_:completion:)</code>
-/// method (e.g. <code>PWBannerView.reportAd</code>, <code>PWNativeView.reportAd</code>, <code>PWInterstitial.reportAd</code>) to
-/// submit the report to Playwire’s ad security provider.
-SWIFT_CLASS("_TtC8Playwire10PWAdReport")
-@interface PWAdReport : NSObject
-/// The email address of the person submitting the report.
-@property (nonatomic, readonly, copy) NSString * _Nonnull email;
-/// Whether the report is being submitted by the app owner/publisher rather than an end user.
-@property (nonatomic, readonly) BOOL submittedByWebsiteOwner;
-/// \param email The email address of the person submitting the report.
-///
-/// \param submittedByWebsiteOwner Whether the report is being submitted by the app
-/// owner/publisher rather than an end user. Defaults to <code>false</code>.
-///
-- (nonnull instancetype)initWithEmail:(NSString * _Nonnull)email submittedByWebsiteOwner:(BOOL)submittedByWebsiteOwner OBJC_DESIGNATED_INITIALIZER;
-/// Flags the ad as having the given issue. Call this once per issue to report; multiple
-/// issues can be flagged on the same report.
-- (PWAdReport * _Nonnull)flag:(enum PWAdReportIssue)issue;
-/// Removes a previously flagged issue from the report.
-- (PWAdReport * _Nonnull)unflag:(enum PWAdReportIssue)issue;
-/// Returns whether the given issue has been flagged on this report.
-- (BOOL)isFlagged:(enum PWAdReportIssue)issue SWIFT_WARN_UNUSED_RESULT;
-/// Free-form text providing additional context about the reported issue.
-- (PWAdReport * _Nonnull)withAdditionalDetails:(NSString * _Nonnull)details;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-/// The category of issue being reported about an ad. Pass one or more of these to
-/// <code>PWAdReport.flag(_:)</code> to describe why an ad is being reported.
-typedef SWIFT_ENUM(NSInteger, PWAdReportIssue, open) {
-/// The ad has an issue with a banner, video, or sound (e.g. auto-playing audio).
-  PWAdReportIssueInBannerVideoOrSound = 0,
-/// The ad contains offensive or adult content.
-  PWAdReportIssueOffensiveOrAdultContent = 1,
-/// The ad overlaps or obstructs the surrounding page/app content.
-  PWAdReportIssueOverlapsPageContent = 2,
-/// The ad is from a competitive advertiser.
-  PWAdReportIssueCompetitiveAdvertiser = 3,
-/// The ad appears to be a scam or contains misleading claims.
-  PWAdReportIssueScamOrMisleadingClaim = 4,
-/// The ad has performance issues or provides a bad user experience.
-  PWAdReportIssuePerformanceOrBadUX = 5,
-/// The ad has some other, unlisted issue. Pair with <code>PWAdReport.withAdditionalDetails(_:)</code>
-/// to describe it.
-  PWAdReportIssueOther = 6,
-};
-
 /// Responsible for loading, managing, and presenting banner ads.
 /// <code>PWAdViewPresenter</code>:
 /// <ul>
@@ -845,14 +795,6 @@ SWIFT_CLASS("_TtC8Playwire14PWFullScreenAd")
 - (void)load;
 - (void)loadWithParams:(PWLoadParams * _Nonnull)params;
 - (void)show;
-/// Reports this full-screen ad to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -883,14 +825,6 @@ SWIFT_CLASS("_TtC8Playwire8PWViewAd")
 - (void)loadWithParams:(PWLoadParams * _Nonnull)params;
 @property (nonatomic, readonly) BOOL isLoaded;
 - (void)refresh;
-/// Reports this ad view to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 @end
 
 SWIFT_CLASS("_TtC8Playwire12PWBannerView")
@@ -1054,14 +988,6 @@ SWIFT_CLASS("_TtC8Playwire12PWNativeView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-/// Reports this native ad to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1875,56 +1801,6 @@ SWIFT_CLASS("_TtC8Playwire17PWAdLoaderBuilder")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum PWAdReportIssue : NSInteger;
-/// Describes an ad reported by a consumer of the SDK as offensive, malicious, or otherwise
-/// problematic. Pass an instance of this class to an ad object’s <code>reportAd(_:completion:)</code>
-/// method (e.g. <code>PWBannerView.reportAd</code>, <code>PWNativeView.reportAd</code>, <code>PWInterstitial.reportAd</code>) to
-/// submit the report to Playwire’s ad security provider.
-SWIFT_CLASS("_TtC8Playwire10PWAdReport")
-@interface PWAdReport : NSObject
-/// The email address of the person submitting the report.
-@property (nonatomic, readonly, copy) NSString * _Nonnull email;
-/// Whether the report is being submitted by the app owner/publisher rather than an end user.
-@property (nonatomic, readonly) BOOL submittedByWebsiteOwner;
-/// \param email The email address of the person submitting the report.
-///
-/// \param submittedByWebsiteOwner Whether the report is being submitted by the app
-/// owner/publisher rather than an end user. Defaults to <code>false</code>.
-///
-- (nonnull instancetype)initWithEmail:(NSString * _Nonnull)email submittedByWebsiteOwner:(BOOL)submittedByWebsiteOwner OBJC_DESIGNATED_INITIALIZER;
-/// Flags the ad as having the given issue. Call this once per issue to report; multiple
-/// issues can be flagged on the same report.
-- (PWAdReport * _Nonnull)flag:(enum PWAdReportIssue)issue;
-/// Removes a previously flagged issue from the report.
-- (PWAdReport * _Nonnull)unflag:(enum PWAdReportIssue)issue;
-/// Returns whether the given issue has been flagged on this report.
-- (BOOL)isFlagged:(enum PWAdReportIssue)issue SWIFT_WARN_UNUSED_RESULT;
-/// Free-form text providing additional context about the reported issue.
-- (PWAdReport * _Nonnull)withAdditionalDetails:(NSString * _Nonnull)details;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-/// The category of issue being reported about an ad. Pass one or more of these to
-/// <code>PWAdReport.flag(_:)</code> to describe why an ad is being reported.
-typedef SWIFT_ENUM(NSInteger, PWAdReportIssue, open) {
-/// The ad has an issue with a banner, video, or sound (e.g. auto-playing audio).
-  PWAdReportIssueInBannerVideoOrSound = 0,
-/// The ad contains offensive or adult content.
-  PWAdReportIssueOffensiveOrAdultContent = 1,
-/// The ad overlaps or obstructs the surrounding page/app content.
-  PWAdReportIssueOverlapsPageContent = 2,
-/// The ad is from a competitive advertiser.
-  PWAdReportIssueCompetitiveAdvertiser = 3,
-/// The ad appears to be a scam or contains misleading claims.
-  PWAdReportIssueScamOrMisleadingClaim = 4,
-/// The ad has performance issues or provides a bad user experience.
-  PWAdReportIssuePerformanceOrBadUX = 5,
-/// The ad has some other, unlisted issue. Pair with <code>PWAdReport.withAdditionalDetails(_:)</code>
-/// to describe it.
-  PWAdReportIssueOther = 6,
-};
-
 /// Responsible for loading, managing, and presenting banner ads.
 /// <code>PWAdViewPresenter</code>:
 /// <ul>
@@ -1992,14 +1868,6 @@ SWIFT_CLASS("_TtC8Playwire14PWFullScreenAd")
 - (void)load;
 - (void)loadWithParams:(PWLoadParams * _Nonnull)params;
 - (void)show;
-/// Reports this full-screen ad to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -2030,14 +1898,6 @@ SWIFT_CLASS("_TtC8Playwire8PWViewAd")
 - (void)loadWithParams:(PWLoadParams * _Nonnull)params;
 @property (nonatomic, readonly) BOOL isLoaded;
 - (void)refresh;
-/// Reports this ad view to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 @end
 
 SWIFT_CLASS("_TtC8Playwire12PWBannerView")
@@ -2201,14 +2061,6 @@ SWIFT_CLASS("_TtC8Playwire12PWNativeView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-/// Reports this native ad to Playwire’s ad security provider, flagging it as offensive,
-/// malicious, fraudulent, or otherwise problematic.
-/// \param report A <code>PWAdReport</code> describing the reported issue.
-///
-/// \param completion Invoked with <code>true</code> if the report was submitted successfully, <code>false</code>
-/// otherwise.
-///
-- (void)reportAd:(PWAdReport * _Nonnull)report completion:(void (^ _Nonnull)(BOOL))completion;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
