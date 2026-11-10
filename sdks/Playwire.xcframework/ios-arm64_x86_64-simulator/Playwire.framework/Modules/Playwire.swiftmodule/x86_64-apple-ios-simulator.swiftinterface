@@ -6,21 +6,20 @@ import AVFoundation
 import AdSupport
 import AppLovinSDK
 import AppTrackingTransparency
+import Boltive
 import ChartboostSDK
-import CoreGraphics
 import DTBiOSSDK
-import DeveloperToolsSupport
 import FBAudienceNetwork
 import Foundation
 import GoogleInteractiveMediaAds
 import GoogleMobileAds
 import IASDKCore
+import JavaScriptCore
 import MetaAdapter
 import Network
 import PAGAdSDK
 import PangleAdapter
 import Swift
-import SwiftUI
 import UIKit
 import UserMessagingPlatform
 import WebKit
@@ -349,6 +348,7 @@ extension Playwire.PMAd {
   #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @objc @_Concurrency.MainActor @preconcurrency public func destroy()
   @objc @_Concurrency.MainActor @preconcurrency public func load()
   @objc @_Concurrency.MainActor @preconcurrency public func load(params: Playwire.PWLoadParams)
@@ -570,6 +570,11 @@ public struct PWAdRevenue {
   #endif
   public init()
 }
+public protocol PWStackRuleObjectsProvider {
+  var objects: [Swift.String : Any] { get }
+  func set(_ object: Any, forKey key: Swift.String)
+  func removeObject(forKey key: Swift.String)
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class PlaywireSDK : ObjectiveC.NSObject {
   @objc public static let shared: Playwire.PlaywireSDK
   @objc public var logLevel: Playwire.LogLevel {
@@ -579,6 +584,7 @@ public struct PWAdRevenue {
   @objc final public let targeting: Playwire.PWTargeting
   @objc public var test: Swift.Bool
   @objc public var cmp: Playwire.PWCMPType
+  final public let stackRuleObjectsProvider: any Playwire.PWStackRuleObjectsProvider
   @objc public var isPrivacyOptionsRequired: Swift.Bool {
     @objc get
   }

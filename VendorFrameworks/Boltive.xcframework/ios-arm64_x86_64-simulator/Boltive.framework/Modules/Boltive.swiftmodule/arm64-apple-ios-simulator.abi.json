@@ -1,0 +1,1938 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Boltive",
+    "printedName": "Boltive",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Boltive"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoltiveAdNetwork",
+        "printedName": "BoltiveAdNetwork",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "GoogleAdManager",
+            "printedName": "GoogleAdManager",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Boltive.BoltiveAdNetwork.Type) -> Boltive.BoltiveAdNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoltiveAdNetwork",
+                    "printedName": "Boltive.BoltiveAdNetwork",
+                    "usr": "s:7Boltive0A9AdNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Boltive.BoltiveAdNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoltiveAdNetwork",
+                        "printedName": "Boltive.BoltiveAdNetwork",
+                        "usr": "s:7Boltive0A9AdNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Boltive0A9AdNetworkO06GoogleB7ManageryA2CmF",
+            "mangledName": "$s7Boltive0A9AdNetworkO06GoogleB7ManageryA2CmF",
+            "moduleName": "Boltive"
+          },
+          {
+            "kind": "Var",
+            "name": "AppLovin",
+            "printedName": "AppLovin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Boltive.BoltiveAdNetwork.Type) -> Boltive.BoltiveAdNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoltiveAdNetwork",
+                    "printedName": "Boltive.BoltiveAdNetwork",
+                    "usr": "s:7Boltive0A9AdNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Boltive.BoltiveAdNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoltiveAdNetwork",
+                        "printedName": "Boltive.BoltiveAdNetwork",
+                        "usr": "s:7Boltive0A9AdNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Boltive0A9AdNetworkO8AppLovinyA2CmF",
+            "mangledName": "$s7Boltive0A9AdNetworkO8AppLovinyA2CmF",
+            "moduleName": "Boltive"
+          },
+          {
+            "kind": "Var",
+            "name": "AdMob",
+            "printedName": "AdMob",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Boltive.BoltiveAdNetwork.Type) -> Boltive.BoltiveAdNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoltiveAdNetwork",
+                    "printedName": "Boltive.BoltiveAdNetwork",
+                    "usr": "s:7Boltive0A9AdNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Boltive.BoltiveAdNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoltiveAdNetwork",
+                        "printedName": "Boltive.BoltiveAdNetwork",
+                        "usr": "s:7Boltive0A9AdNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Boltive0A9AdNetworkO0B3MobyA2CmF",
+            "mangledName": "$s7Boltive0A9AdNetworkO0B3MobyA2CmF",
+            "moduleName": "Boltive"
+          },
+          {
+            "kind": "Var",
+            "name": "customAdNetwork",
+            "printedName": "customAdNetwork",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Boltive.BoltiveAdNetwork.Type) -> (Swift.String) -> Boltive.BoltiveAdNetwork",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> Boltive.BoltiveAdNetwork",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoltiveAdNetwork",
+                        "printedName": "Boltive.BoltiveAdNetwork",
+                        "usr": "s:7Boltive0A9AdNetworkO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(adNetworkName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Boltive.BoltiveAdNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoltiveAdNetwork",
+                        "printedName": "Boltive.BoltiveAdNetwork",
+                        "usr": "s:7Boltive0A9AdNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Boltive0A9AdNetworkO06custombC0yACSS_tcACmF",
+            "mangledName": "$s7Boltive0A9AdNetworkO06custombC0yACSS_tcACmF",
+            "moduleName": "Boltive"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Boltive0A9AdNetworkO",
+        "mangledName": "$s7Boltive0A9AdNetworkO",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoltiveConfiguration",
+        "printedName": "BoltiveConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A13ConfigurationV8clientIdSSvp",
+            "mangledName": "$s7Boltive0A13ConfigurationV8clientIdSSvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A13ConfigurationV8clientIdSSvg",
+                "mangledName": "$s7Boltive0A13ConfigurationV8clientIdSSvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetwork",
+            "printedName": "adNetwork",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveAdNetwork",
+                "printedName": "Boltive.BoltiveAdNetwork",
+                "usr": "s:7Boltive0A9AdNetworkO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovp",
+            "mangledName": "$s7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoltiveAdNetwork",
+                    "printedName": "Boltive.BoltiveAdNetwork",
+                    "usr": "s:7Boltive0A9AdNetworkO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovg",
+                "mangledName": "$s7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoltiveAdNetwork",
+                    "printedName": "Boltive.BoltiveAdNetwork",
+                    "usr": "s:7Boltive0A9AdNetworkO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovs",
+                "mangledName": "$s7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0Ovs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0OvM",
+                "mangledName": "$s7Boltive0A13ConfigurationV9adNetworkAA0a2AdD0OvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientId:adNetwork:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveConfiguration",
+                "printedName": "Boltive.BoltiveConfiguration",
+                "usr": "s:7Boltive0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveAdNetwork",
+                "printedName": "Boltive.BoltiveAdNetwork",
+                "hasDefaultArg": true,
+                "usr": "s:7Boltive0A9AdNetworkO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Boltive0A13ConfigurationV8clientId9adNetworkACSS_AA0a2AdF0Otcfc",
+            "mangledName": "$s7Boltive0A13ConfigurationV8clientId9adNetworkACSS_AA0a2AdF0Otcfc",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Boltive0A13ConfigurationV",
+        "mangledName": "$s7Boltive0A13ConfigurationV",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Boltive"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoltiveMonitor",
+        "printedName": "BoltiveMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A7MonitorC10sdkVersionSSvpZ",
+            "mangledName": "$s7Boltive0A7MonitorC10sdkVersionSSvpZ",
+            "moduleName": "Boltive",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A7MonitorC10sdkVersionSSvgZ",
+                "mangledName": "$s7Boltive0A7MonitorC10sdkVersionSSvgZ",
+                "moduleName": "Boltive",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveMonitor",
+                "printedName": "Boltive.BoltiveMonitor",
+                "usr": "c:@M@Boltive@objc(cs)BoltiveMonitor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveConfiguration",
+                "printedName": "Boltive.BoltiveConfiguration",
+                "usr": "s:7Boltive0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Boltive0A7MonitorC13configurationAcA0A13ConfigurationV_tcfc",
+            "mangledName": "$s7Boltive0A7MonitorC13configurationAcA0A13ConfigurationV_tcfc",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "capture",
+            "printedName": "capture(bannerView:tagDetails:adBlocked:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveTagDetails",
+                "printedName": "Boltive.BoltiveTagDetails",
+                "usr": "s:7Boltive0A10TagDetailsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Boltive0A7MonitorC7capture10bannerView10tagDetails9adBlockedySo6UIViewC_AA0a3TagG0VyAIctF",
+            "mangledName": "$s7Boltive0A7MonitorC7capture10bannerView10tagDetails9adBlockedySo6UIViewC_AA0a3TagG0VyAIctF",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureInterstitial",
+            "printedName": "captureInterstitial(adObject:tagDetails:adBlocked:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveTagDetails",
+                "printedName": "Boltive.BoltiveTagDetails",
+                "usr": "s:7Boltive0A10TagDetailsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Boltive0A7MonitorC19captureInterstitial8adObject10tagDetails0E7BlockedyyXlSg_AA0a3TagH0VyyctF",
+            "mangledName": "$s7Boltive0A7MonitorC19captureInterstitial8adObject10tagDetails0E7BlockedyyXlSg_AA0a3TagH0VyyctF",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveMonitor",
+                "printedName": "Boltive.BoltiveMonitor",
+                "usr": "c:@M@Boltive@objc(cs)BoltiveMonitor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Boltive@objc(cs)BoltiveMonitor(im)init",
+            "mangledName": "$s7Boltive0A7MonitorCACycfc",
+            "moduleName": "Boltive",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Boltive@objc(cs)BoltiveMonitor",
+        "mangledName": "$s7Boltive0A7MonitorC",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Boltive"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Boltive"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Boltive"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoltiveTagDetails",
+        "printedName": "BoltiveTagDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adUnitId",
+            "printedName": "adUnitId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV8adUnitIdSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV8adUnitIdSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV8adUnitIdSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV8adUnitIdSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV8adUnitIdSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV8adUnitIdSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV8adUnitIdSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV8adUnitIdSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "advertiserId",
+            "printedName": "advertiserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV12advertiserIdSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV12advertiserIdSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV12advertiserIdSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV12advertiserIdSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV12advertiserIdSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV12advertiserIdSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV12advertiserIdSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV12advertiserIdSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "campaignId",
+            "printedName": "campaignId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV10campaignIdSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV10campaignIdSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10campaignIdSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV10campaignIdSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10campaignIdSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV10campaignIdSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10campaignIdSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV10campaignIdSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creativeId",
+            "printedName": "creativeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV10creativeIdSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV10creativeIdSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10creativeIdSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV10creativeIdSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10creativeIdSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV10creativeIdSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10creativeIdSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV10creativeIdSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lineItemId",
+            "printedName": "lineItemId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV10lineItemIdSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV10lineItemIdSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10lineItemIdSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV10lineItemIdSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10lineItemIdSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV10lineItemIdSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV10lineItemIdSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV10lineItemIdSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sspRefreshCode",
+            "printedName": "sspRefreshCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV14sspRefreshCodeSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Boltive0A10TagDetailsV7appNameSSSgvp",
+            "mangledName": "$s7Boltive0A10TagDetailsV7appNameSSSgvp",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV7appNameSSSgvg",
+                "mangledName": "$s7Boltive0A10TagDetailsV7appNameSSSgvg",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV7appNameSSSgvs",
+                "mangledName": "$s7Boltive0A10TagDetailsV7appNameSSSgvs",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Boltive0A10TagDetailsV7appNameSSSgvM",
+                "mangledName": "$s7Boltive0A10TagDetailsV7appNameSSSgvM",
+                "moduleName": "Boltive",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnitId:advertiserId:campaignId:creativeId:lineItemId:sspRefreshCode:appName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoltiveTagDetails",
+                "printedName": "Boltive.BoltiveTagDetails",
+                "usr": "s:7Boltive0A10TagDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Boltive0A10TagDetailsV8adUnitId010advertiserF008campaignF008creativeF008lineItemF014sspRefreshCode7appNameACSSSg_A6Ktcfc",
+            "mangledName": "$s7Boltive0A10TagDetailsV8adUnitId010advertiserF008campaignF008creativeF008lineItemF014sspRefreshCode7appNameACSSSg_A6Ktcfc",
+            "moduleName": "Boltive",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Boltive0A10TagDetailsV",
+        "mangledName": "$s7Boltive0A10TagDetailsV",
+        "moduleName": "Boltive",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 17,
+      "value": "\"boltiveObserver\""
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 20,
+      "value": "\"areScriptsInjected\""
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 625,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveMonitor.swift",
+      "kind": "Array",
+      "offset": 1054,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveScriptMessageHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 786,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/buildserver\/server\/jenkins\/workspace\/boltive-ios-sdk\/Boltive\/Boltive\/BoltiveTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

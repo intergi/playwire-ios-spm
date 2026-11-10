@@ -6,21 +6,20 @@ import AVFoundation
 import AdSupport
 import AppLovinSDK
 import AppTrackingTransparency
+import Boltive
 import ChartboostSDK
-import CoreGraphics
 import DTBiOSSDK
-import DeveloperToolsSupport
 import FBAudienceNetwork
 import Foundation
 import GoogleInteractiveMediaAds
 import GoogleMobileAds
 import IASDKCore
+import JavaScriptCore
 import MetaAdapter
 import Network
 import PAGAdSDK
 import PangleAdapter
 import Swift
-import SwiftUI
 import UIKit
 import UserMessagingPlatform
 import WebKit
@@ -352,6 +351,7 @@ extension Playwire.PMAd {
   #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @objc @_Concurrency.MainActor @preconcurrency public func destroy()
   @objc @_Concurrency.MainActor @preconcurrency public func load()
   @objc @_Concurrency.MainActor @preconcurrency public func load(params: Playwire.PWLoadParams)
@@ -573,6 +573,35 @@ public struct PWAdRevenue {
   #endif
   public init()
 }
+public protocol PWStackRuleObjectsProvider {
+  var objects: [Swift.String : Any] { get }
+  func set(_ object: Any, forKey key: Swift.String)
+  func removeObject(forKey key: Swift.String)
+}
+@_spi(PlaywireDemo) @objc public enum PWConfigSource : Swift.Int {
+  @_spi(PlaywireDemo) case legacyRamp
+  @_spi(PlaywireDemo) case newRamp
+  @_spi(PlaywireDemo) case newStack
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_spi(PlaywireDemo) public init?(rawValue: Swift.Int)
+  #endif
+  @_spi(PlaywireDemo) public typealias RawValue = Swift.Int
+  @_spi(PlaywireDemo) public var rawValue: Swift.Int {
+    @_spi(PlaywireDemo) get
+  }
+}
+@_spi(PlaywireDemo) @objc public enum PWConfigEnvironment : Swift.Int, Swift.Sendable {
+  @_spi(PlaywireDemo) case production
+  @_spi(PlaywireDemo) case staging
+  @_spi(PlaywireDemo) case local
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_spi(PlaywireDemo) public init?(rawValue: Swift.Int)
+  #endif
+  @_spi(PlaywireDemo) public typealias RawValue = Swift.Int
+  @_spi(PlaywireDemo) public var rawValue: Swift.Int {
+    @_spi(PlaywireDemo) get
+  }
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class PlaywireSDK : ObjectiveC.NSObject {
   @objc public static let shared: Playwire.PlaywireSDK
   @objc public var logLevel: Playwire.LogLevel {
@@ -582,6 +611,13 @@ public struct PWAdRevenue {
   @objc final public let targeting: Playwire.PWTargeting
   @objc public var test: Swift.Bool
   @objc public var cmp: Playwire.PWCMPType
+  final public let stackRuleObjectsProvider: any Playwire.PWStackRuleObjectsProvider
+  @_spi(PlaywireDemo) @objc public var configSource: Playwire.PWConfigSource
+  @_spi(PlaywireDemo) @nonobjc public var configEnvironment: Playwire.PWConfigEnvironment {
+    get
+  }
+  @_spi(PlaywireDemo) @objc @discardableResult
+  public func setConfigEnvironment(_ environment: Playwire.PWConfigEnvironment) -> Swift.Bool
   @objc public var isPrivacyOptionsRequired: Swift.Bool {
     @objc get
   }
@@ -620,3 +656,9 @@ extension Playwire.FloatingViewCorner : Swift.RawRepresentable {}
 extension Playwire.LogLevel : Swift.Equatable {}
 extension Playwire.LogLevel : Swift.Hashable {}
 extension Playwire.LogLevel : Swift.RawRepresentable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.Equatable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.Hashable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.RawRepresentable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.Equatable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.Hashable {}
+@_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.RawRepresentable {}

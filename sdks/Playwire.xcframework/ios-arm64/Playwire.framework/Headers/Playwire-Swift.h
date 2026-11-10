@@ -495,7 +495,7 @@ SWIFT_CLASS("_TtC8Playwire16PMBannerAdLoader")
 ///
 - (void)loadOnAdResult:(void (^ _Nonnull)(id <PMBannerAd> _Nullable))onAdResult;
 /// Requests a manual banner refresh.
-/// Actual execution is subject to refresh timing and count limits.
+/// Actual execution is subject to refresh timing limits.
 - (void)refresh;
 /// Called when the banner records an impression.
 /// Non-video banners schedule the next automatic load immediately after impression.
@@ -820,6 +820,7 @@ SWIFT_CLASS("_TtC8Playwire8PWViewAd")
 - (nonnull instancetype)initWithAdUnitName:(NSString * _Nonnull)adUnitName delegate:(id <PWViewAdDelegate> _Nullable)delegate;
 - (nonnull instancetype)initWithAdUnitName:(NSString * _Nonnull)adUnitName controller:(UIViewController * _Nullable)controller;
 - (void)awakeFromNib;
+- (void)didMoveToWindow;
 - (void)destroy;
 - (void)load;
 - (void)loadWithParams:(PWLoadParams * _Nonnull)params;
@@ -874,6 +875,18 @@ typedef SWIFT_ENUM(NSInteger, PWCMPType, open) {
   PWCMPTypeNone = 0,
   PWCMPTypeAlreadyLaunched = 1,
   PWCMPTypeGoogleUmp = 2,
+};
+
+typedef SWIFT_ENUM(NSInteger, PWConfigEnvironment, open) {
+  PWConfigEnvironmentProduction = 0,
+  PWConfigEnvironmentStaging = 1,
+  PWConfigEnvironmentLocal = 2,
+};
+
+typedef SWIFT_ENUM(NSInteger, PWConfigSource, open) {
+  PWConfigSourceLegacyRamp = 0,
+  PWConfigSourceNewRamp = 1,
+  PWConfigSourceNewStack = 2,
 };
 
 @protocol PWFloatingBannerAnimationHandler;
@@ -1041,6 +1054,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 @property (nonatomic, readonly, strong) PWTargeting * _Nonnull targeting;
 @property (nonatomic) BOOL test;
 @property (nonatomic) enum PWCMPType cmp;
+@property (nonatomic) enum PWConfigSource configSource;
+/// Internal/demo override. Must be called before the first initialization request.
+- (BOOL)setConfigEnvironment:(enum PWConfigEnvironment)environment;
 /// Checks if the user is in a region requiring a Privacy Options entry point (e.g., EEA/UK).
 @property (nonatomic, readonly) BOOL isPrivacyOptionsRequired;
 - (void)startWithPublisherId:(NSString * _Nonnull)publisherId appId:(NSString * _Nonnull)appId viewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
