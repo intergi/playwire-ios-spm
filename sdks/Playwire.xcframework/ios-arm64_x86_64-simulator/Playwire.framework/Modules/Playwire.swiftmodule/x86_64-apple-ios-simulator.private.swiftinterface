@@ -578,18 +578,6 @@ public protocol PWStackRuleObjectsProvider {
   func set(_ object: Any, forKey key: Swift.String)
   func removeObject(forKey key: Swift.String)
 }
-@_spi(PlaywireDemo) @objc public enum PWConfigSource : Swift.Int {
-  @_spi(PlaywireDemo) case legacyRamp
-  @_spi(PlaywireDemo) case newRamp
-  @_spi(PlaywireDemo) case newStack
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_spi(PlaywireDemo) public init?(rawValue: Swift.Int)
-  #endif
-  @_spi(PlaywireDemo) public typealias RawValue = Swift.Int
-  @_spi(PlaywireDemo) public var rawValue: Swift.Int {
-    @_spi(PlaywireDemo) get
-  }
-}
 @_spi(PlaywireDemo) @objc public enum PWConfigEnvironment : Swift.Int, Swift.Sendable {
   @_spi(PlaywireDemo) case production
   @_spi(PlaywireDemo) case staging
@@ -612,7 +600,7 @@ public protocol PWStackRuleObjectsProvider {
   @objc public var test: Swift.Bool
   @objc public var cmp: Playwire.PWCMPType
   final public let stackRuleObjectsProvider: any Playwire.PWStackRuleObjectsProvider
-  @_spi(PlaywireDemo) @objc public var configSource: Playwire.PWConfigSource
+  @_spi(PlaywireDemo) @objc public var isNewConfigEndpoint: Swift.Bool
   @_spi(PlaywireDemo) @nonobjc public var configEnvironment: Playwire.PWConfigEnvironment {
     get
   }
@@ -656,9 +644,6 @@ extension Playwire.FloatingViewCorner : Swift.RawRepresentable {}
 extension Playwire.LogLevel : Swift.Equatable {}
 extension Playwire.LogLevel : Swift.Hashable {}
 extension Playwire.LogLevel : Swift.RawRepresentable {}
-@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.Equatable {}
-@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.Hashable {}
-@_spi(PlaywireDemo) extension Playwire.PWConfigSource : Swift.RawRepresentable {}
 @_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.Equatable {}
 @_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.Hashable {}
 @_spi(PlaywireDemo) extension Playwire.PWConfigEnvironment : Swift.RawRepresentable {}

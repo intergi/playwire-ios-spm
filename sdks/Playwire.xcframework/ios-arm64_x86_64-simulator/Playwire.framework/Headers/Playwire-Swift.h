@@ -883,12 +883,6 @@ typedef SWIFT_ENUM(NSInteger, PWConfigEnvironment, open) {
   PWConfigEnvironmentLocal = 2,
 };
 
-typedef SWIFT_ENUM(NSInteger, PWConfigSource, open) {
-  PWConfigSourceLegacyRamp = 0,
-  PWConfigSourceNewRamp = 1,
-  PWConfigSourceNewStack = 2,
-};
-
 @protocol PWFloatingBannerAnimationHandler;
 @class PWFloatingView;
 SWIFT_CLASS("_TtC8Playwire16PWFloatingBanner")
@@ -1054,7 +1048,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 @property (nonatomic, readonly, strong) PWTargeting * _Nonnull targeting;
 @property (nonatomic) BOOL test;
 @property (nonatomic) enum PWCMPType cmp;
-@property (nonatomic) enum PWConfigSource configSource;
+@property (nonatomic) BOOL isNewConfigEndpoint;
 /// Internal/demo override. Must be called before the first initialization request.
 - (BOOL)setConfigEnvironment:(enum PWConfigEnvironment)environment;
 /// Checks if the user is in a region requiring a Privacy Options entry point (e.g., EEA/UK).
@@ -1972,12 +1966,6 @@ typedef SWIFT_ENUM(NSInteger, PWConfigEnvironment, open) {
   PWConfigEnvironmentLocal = 2,
 };
 
-typedef SWIFT_ENUM(NSInteger, PWConfigSource, open) {
-  PWConfigSourceLegacyRamp = 0,
-  PWConfigSourceNewRamp = 1,
-  PWConfigSourceNewStack = 2,
-};
-
 @protocol PWFloatingBannerAnimationHandler;
 @class PWFloatingView;
 SWIFT_CLASS("_TtC8Playwire16PWFloatingBanner")
@@ -2143,7 +2131,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PlaywireSDK 
 @property (nonatomic, readonly, strong) PWTargeting * _Nonnull targeting;
 @property (nonatomic) BOOL test;
 @property (nonatomic) enum PWCMPType cmp;
-@property (nonatomic) enum PWConfigSource configSource;
+@property (nonatomic) BOOL isNewConfigEndpoint;
 /// Internal/demo override. Must be called before the first initialization request.
 - (BOOL)setConfigEnvironment:(enum PWConfigEnvironment)environment;
 /// Checks if the user is in a region requiring a Privacy Options entry point (e.g., EEA/UK).

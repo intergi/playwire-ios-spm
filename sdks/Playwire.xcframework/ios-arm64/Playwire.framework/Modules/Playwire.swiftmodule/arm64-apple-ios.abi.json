@@ -15985,291 +15985,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PWConfigSource",
-        "printedName": "PWConfigSource",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "legacyRamp",
-            "printedName": "legacyRamp",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Playwire.PWConfigSource.Type) -> Playwire.PWConfigSource",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Playwire.PWConfigSource.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PWConfigSource",
-                        "printedName": "Playwire.PWConfigSource",
-                        "usr": "c:@M@Playwire@E@PWConfigSource"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Playwire@E@PWConfigSource@PWConfigSourceLegacyRamp",
-            "mangledName": "$s8Playwire14PWConfigSourceO10legacyRampyA2CmF",
-            "moduleName": "Playwire",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0,
-            "spi_group_names": [
-              "PlaywireDemo"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "newRamp",
-            "printedName": "newRamp",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Playwire.PWConfigSource.Type) -> Playwire.PWConfigSource",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Playwire.PWConfigSource.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PWConfigSource",
-                        "printedName": "Playwire.PWConfigSource",
-                        "usr": "c:@M@Playwire@E@PWConfigSource"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Playwire@E@PWConfigSource@PWConfigSourceNewRamp",
-            "mangledName": "$s8Playwire14PWConfigSourceO7newRampyA2CmF",
-            "moduleName": "Playwire",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1,
-            "spi_group_names": [
-              "PlaywireDemo"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "newStack",
-            "printedName": "newStack",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Playwire.PWConfigSource.Type) -> Playwire.PWConfigSource",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Playwire.PWConfigSource.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PWConfigSource",
-                        "printedName": "Playwire.PWConfigSource",
-                        "usr": "c:@M@Playwire@E@PWConfigSource"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Playwire@E@PWConfigSource@PWConfigSourceNewStack",
-            "mangledName": "$s8Playwire14PWConfigSourceO8newStackyA2CmF",
-            "moduleName": "Playwire",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2,
-            "spi_group_names": [
-              "PlaywireDemo"
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Playwire.PWConfigSource?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8Playwire14PWConfigSourceO8rawValueACSgSi_tcfc",
-            "mangledName": "$s8Playwire14PWConfigSourceO8rawValueACSgSi_tcfc",
-            "moduleName": "Playwire",
-            "implicit": true,
-            "spi_group_names": [
-              "PlaywireDemo"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8Playwire14PWConfigSourceO8rawValueSivp",
-            "mangledName": "$s8Playwire14PWConfigSourceO8rawValueSivp",
-            "moduleName": "Playwire",
-            "implicit": true,
-            "spi_group_names": [
-              "PlaywireDemo"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8Playwire14PWConfigSourceO8rawValueSivg",
-                "mangledName": "$s8Playwire14PWConfigSourceO8rawValueSivg",
-                "moduleName": "Playwire",
-                "implicit": true,
-                "spi_group_names": [
-                  "PlaywireDemo"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@M@Playwire@E@PWConfigSource",
-        "mangledName": "$s8Playwire14PWConfigSourceO",
-        "moduleName": "Playwire",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "SPIAccessControl"
-        ],
-        "spi_group_names": [
-          "PlaywireDemo"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PWConfigEnvironment",
         "printedName": "PWConfigEnvironment",
         "children": [
@@ -17029,19 +16744,19 @@
           },
           {
             "kind": "Var",
-            "name": "configSource",
-            "printedName": "configSource",
+            "name": "isNewConfigEndpoint",
+            "printedName": "isNewConfigEndpoint",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PWConfigSource",
-                "printedName": "Playwire.PWConfigSource",
-                "usr": "c:@M@Playwire@E@PWConfigSource"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(py)configSource",
-            "mangledName": "$s8Playwire0A3SDKC12configSourceAA08PWConfigD0Ovp",
+            "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(py)isNewConfigEndpoint",
+            "mangledName": "$s8Playwire0A3SDKC19isNewConfigEndpointSbvp",
             "moduleName": "Playwire",
             "declAttributes": [
               "HasInitialValue",
@@ -17062,14 +16777,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(im)configSource",
-                "mangledName": "$s8Playwire0A3SDKC12configSourceAA08PWConfigD0Ovg",
+                "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(im)isNewConfigEndpoint",
+                "mangledName": "$s8Playwire0A3SDKC19isNewConfigEndpointSbvg",
                 "moduleName": "Playwire",
                 "implicit": true,
                 "declAttributes": [
@@ -17092,14 +16807,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PWConfigSource",
-                    "printedName": "Playwire.PWConfigSource",
-                    "usr": "c:@M@Playwire@E@PWConfigSource"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(im)setConfigSource:",
-                "mangledName": "$s8Playwire0A3SDKC12configSourceAA08PWConfigD0Ovs",
+                "usr": "c:@M@Playwire@objc(cs)PlaywireSDK(im)setIsNewConfigEndpoint:",
+                "mangledName": "$s8Playwire0A3SDKC19isNewConfigEndpointSbvs",
                 "moduleName": "Playwire",
                 "implicit": true,
                 "declAttributes": [
@@ -17122,8 +16837,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Playwire0A3SDKC12configSourceAA08PWConfigD0OvM",
-                "mangledName": "$s8Playwire0A3SDKC12configSourceAA08PWConfigD0OvM",
+                "usr": "s:8Playwire0A3SDKC19isNewConfigEndpointSbvM",
+                "mangledName": "$s8Playwire0A3SDKC19isNewConfigEndpointSbvM",
                 "moduleName": "Playwire",
                 "implicit": true,
                 "spi_group_names": [
@@ -19625,6 +19340,13 @@
       "value": "\"AppOpenAd\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfigLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2028,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWDataLoaderRetrier.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
@@ -19807,20 +19529,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfigFileMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 335,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/config\/PWConfigFileMetadata.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 8,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Environment.swift",
       "kind": "IntegerLiteral",
       "offset": 104,
@@ -19844,28 +19552,35 @@
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1106,
+      "offset": 928,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "Array",
-      "offset": 1768,
+      "offset": 1752,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2169,
+      "offset": 2153,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/PlaywireSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 13071,
+      "offset": 13075,
       "length": 4,
       "value": "true"
     },
@@ -19874,7 +19589,7 @@
       "kind": "StringLiteral",
       "offset": 43,
       "length": 16,
-      "value": "\"13.2.0-alpha.1\""
+      "value": "\"13.2.0-alpha.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/playwire-ios-sdk\/playwire-ios-sdk\/Playwire\/Constants.swift",
